@@ -1,4 +1,6 @@
 import json
+import shutil
+
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from pathlib import Path
 from urllib.parse import urlparse, parse_qs, unquote
@@ -7,6 +9,7 @@ from urllib.parse import urlparse, parse_qs, unquote
 BASE_DIR = Path(__file__).resolve().parent
 RESULTS_DIR = BASE_DIR / "results"
 INDEX_FILE = RESULTS_DIR / "index.json"
+REQUESTED_DIR = RESULTS_DIR / "solicitados"
 
 
 class CVHandler(SimpleHTTPRequestHandler):
@@ -16,7 +19,7 @@ class CVHandler(SimpleHTTPRequestHandler):
         parsed = urlparse(self.path)
 
         # ==========================================
-        # API
+        # API - BUSCAR CV
         # ==========================================
 
         if parsed.path == "/api/find":
@@ -59,6 +62,7 @@ class CVHandler(SimpleHTTPRequestHandler):
 
             self.send_json({
                 "found": True,
+                "requested": result.get("folder", "").startswith("solicitados/"),
                 **result
             })
 
@@ -96,12 +100,14 @@ class CVHandler(SimpleHTTPRequestHandler):
                 self.send_response(200)
 
                 if file_path.suffix.lower() == ".pdf":
+
                     self.send_header(
                         "Content-Type",
                         "application/pdf"
                     )
 
                 else:
+
                     self.send_header(
                         "Content-Type",
                         "application/octet-stream"
@@ -124,6 +130,199 @@ class CVHandler(SimpleHTTPRequestHandler):
             404,
             "No encontrado"
         )
+
+    # ==========================================
+    # API - MARCAR COMO SOLICITADA
+    # ==========================================
+
+    def do_POST(self):
+
+        parsed = urlparse(self.path)
+
+        if parsed.path == "/api/request":
+
+            content_length = int(
+                self.headers.get(
+                    "Content-Length",
+                    0
+                )
+            )
+
+            body = self.rfile.read(
+                content_length
+            )
+
+            try:
+
+                data = json.loads(
+                    body.decode("utf-8")
+                )
+
+            except json.JSONDecodeError:
+
+                self.send_json({
+                    "success": False,
+                    "error": "JSON inválido"
+                })
+
+                return
+
+            url = data.get("url")
+
+            if not url:
+
+                self.send_json({
+                    "success": False,
+                    "error": "URL no proporcionada"
+                })
+
+                return
+
+            result = self.mark_as_requested(url)
+
+            self.send_json(result)
+
+            return
+
+        self.send_error(
+            404,
+            "No encontrado"
+        )
+
+    # ==========================================
+    # MOVER OFERTA A SOLICITADOS
+    # ==========================================
+
+    def mark_as_requested(self, url):
+
+        if not INDEX_FILE.exists():
+
+            return {
+                "success": False,
+                "error": "index.json no existe"
+            }
+
+        with open(
+            INDEX_FILE,
+            "r",
+            encoding="utf-8"
+        ) as file:
+
+            index = json.load(file)
+
+        result = index.get(url)
+
+        if not result:
+
+            return {
+                "success": False,
+                "error": "Oferta no encontrada"
+            }
+
+        # ------------------------------------------
+        # Ya está solicitada
+        # ------------------------------------------
+
+        folder = result.get("folder", "")
+
+        if folder.startswith("solicitados/"):
+
+            return {
+                "success": True,
+                "already_requested": True,
+                "folder": folder
+            }
+
+        # ------------------------------------------
+        # Carpeta original
+        # ------------------------------------------
+
+        source_folder = RESULTS_DIR / folder
+
+        if not source_folder.exists():
+
+            return {
+                "success": False,
+                "error": f"No existe la carpeta: {folder}"
+            }
+
+        # ------------------------------------------
+        # Crear solicitados
+        # ------------------------------------------
+
+        REQUESTED_DIR.mkdir(
+            parents=True,
+            exist_ok=True
+        )
+
+        target_folder = REQUESTED_DIR / source_folder.name
+
+        # ------------------------------------------
+        # Evitar conflictos
+        # ------------------------------------------
+
+        if target_folder.exists():
+
+            return {
+                "success": False,
+                "error": (
+                    f"La carpeta de destino ya existe: "
+                    f"{target_folder.name}"
+                )
+            }
+
+        # ------------------------------------------
+        # Mover carpeta
+        # ------------------------------------------
+
+        shutil.move(
+            str(source_folder),
+            str(target_folder)
+        )
+
+        # ------------------------------------------
+        # Actualizar index.json
+        # ------------------------------------------
+
+        new_folder = (
+            Path("solicitados") /
+            source_folder.name
+        ).as_posix()
+
+        result["folder"] = new_folder
+
+        if result.get("cv"):
+
+            result["cv"] = (
+                Path("results") /
+                new_folder /
+                Path(result["cv"]).name
+            ).as_posix()
+
+        index[url] = result
+
+        with open(
+            INDEX_FILE,
+            "w",
+            encoding="utf-8"
+        ) as file:
+
+            json.dump(
+                index,
+                file,
+                indent=4,
+                ensure_ascii=False
+            )
+
+        return {
+            "success": True,
+            "already_requested": False,
+            "folder": new_folder
+        }
+
+    # ==========================================
+    # RESPUESTA JSON
+    # ==========================================
 
     def send_json(self, data):
 
@@ -151,12 +350,19 @@ class CVHandler(SimpleHTTPRequestHandler):
 
         self.end_headers()
 
-        self.wfile.write(content)
+        self.wfile.write(
+            content
+        )
 
 
 def main():
 
     RESULTS_DIR.mkdir(
+        parents=True,
+        exist_ok=True
+    )
+
+    REQUESTED_DIR.mkdir(
         parents=True,
         exist_ok=True
     )
@@ -167,7 +373,8 @@ def main():
     )
 
     print(
-        "CV Server activo en http://127.0.0.1:8765"
+        "CV Server activo en "
+        "http://127.0.0.1:8765"
     )
 
     print(

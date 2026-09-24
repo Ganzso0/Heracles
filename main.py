@@ -8,6 +8,7 @@ from analyzer.job_analyzer import analyze_job
 from matcher.match_engine import match_job
 from cv.cv_adapter import adapt_cv
 from cv.cv_renderer import generate_cv
+from cv.cover_letter import generate_cover_letter
 
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -360,6 +361,19 @@ DESCRIPCIÓN:
                 print(
                     "✅ CV generado"
                 )
+
+                print("✉️ Generando carta de presentación...")
+
+                cover_letter = generate_cover_letter(
+                    job_profile=job_profile,
+                    candidate_profile=candidate_profile,
+                    match_result=match_result
+                )
+
+                with open(output_dir / "carta_presentacion.txt", "w", encoding="utf-8") as file:
+                    file.write(cover_letter)
+
+                print("✅ Carta de presentación generada")
 
                 # ==========================================
                 # FINAL

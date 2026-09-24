@@ -31,6 +31,43 @@ async function checkTab(tabId, url) {
                     data.title
             });
 
+            // ==========================================
+            // MARCAR AUTOMÁTICAMENTE COMO SOLICITADA
+            // ==========================================
+
+            if (!data.requested) {
+
+                const requestResponse = await fetch(
+                    "http://127.0.0.1:8765/api/request",
+                    {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+                        body: JSON.stringify({
+                            url: url
+                        })
+                    }
+                );
+
+                if (requestResponse.ok) {
+
+                    const requestData =
+                        await requestResponse.json();
+
+                    if (requestData.success) {
+
+                        chrome.action.setTitle({
+                            tabId: tabId,
+                            title:
+                                "✓ Solicitud registrada: " +
+                                data.title
+                        });
+
+                    }
+                }
+            }
+
         } else {
 
             chrome.action.setBadgeText({

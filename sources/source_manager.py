@@ -1,5 +1,6 @@
 from sources.adzuna_source import AdzunaSource
 from database.database import JobDatabase
+from sources.jooble_source import JoobleSource
 
 
 class SourceManager:
@@ -28,6 +29,16 @@ class SourceManager:
             )
 
             self.sources.append(adzuna)
+
+        jooble_config = sources_config.get("jooble")
+
+        if jooble_config and jooble_config.get("enabled", False):
+
+            jooble = JoobleSource(
+                api_key=jooble_config["api_key"]
+            )
+
+            self.sources.append(jooble)
 
     def search_all(self) -> list[dict]:
 

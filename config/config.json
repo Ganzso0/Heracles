@@ -28,6 +28,11 @@
       "app_id": "e3dffc2c",
       "app_key": "386e47591e709320295407e25c8d4f69",
       "country": "es"
+    },
+    "jooble": {
+        "enabled": true,
+        "api_key": "3846022e-66c7-48c3-b04f-bc805dd6934f"
     }
   }
+
 }
