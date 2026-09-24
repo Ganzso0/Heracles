@@ -1,0 +1,17 @@
+About the job
+🔵 En CAPITOLE, ¡seguimos creciendo y queremos hacerlo contigo!
+Buscamos un/a Desarrollador .Net para un proyecto de alto impacto, centrado en el desarrollo y modernización de aplicaciones críticas de negocio.
+💻 ¿Qué perfil estamos buscando?• +4 años de experiencia desarrollando con .NET Core • Conocimiento fuerte en OOP/OOD y design patterns• Experiencia con Arquitectura Hexagonal, DDD, CQRS, Microservicios.• Experiencia con colas de mensajería y MongoDB• Experiencia escribiendo tests unitarios e integración• Experiencia en cloud con Azure o AWS.• Perfil proactivo, orientado a calidad, escalabilidad y trabajo en equipo bajo metodologías Agile• Capacidad para participar en diseños, code reviews y mejora continua
+Nice to have: conocimientos de Angular
+📍Ubicación: Madrid, 3 días de teletrabajo y 2 días desde casa.🕝Horario: horario flexible con jornada intensiva en verano (julio-agosto)
+Somos geniales, pero contigo lo seremos más 😊
+Para ello tendrás:📚Presupuesto de 1.200€ en formación individual.🗣️Seguimiento con tu equipo todos los meses para tener un continuo feedback.💊Seguro médico privado pagado íntegramente por Capitole💲Retribución flexible (tickets restaurante, transporte y/o guardería).💪Wellhub🫰Descuentos en grandes marcas para emplead@s (Club Capitole)
+Para que conozcas a toda la familia:
+Team Buildings cada dos meses. ¡No te puedes perder la fiesta de verano o la cena de Navidad!
+Equipo de fútbol patrocinado por Capitole.
+Comunidades tecnológicas para que compartas tus conocimientos e ideas con los demás equipos. ¡¡¡Compartir el conocimiento interno es fundamental!!!
+¡Por último y no menos importante un EQUIPAZO!
+
+¿Aún no nos conoces? ¡¡Descúbrenos!! https://capitole-consulting.com/Mira lo que opinan de nosotros 👀 https://www.glassdoor.es/Opiniones/Capitole-Consulting-Opiniones-E2060890.htm
+No dudes en enviarnos tu perfil, ¡estamos deseando conocerte!
+The employee will adhere to information security policies:-Will have access to confidential information related to Capitole and the project they are working on.-Must comply with the security policies and internal policies of the company and the client.-Must sign an NDA.

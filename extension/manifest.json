@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "JobHunter CV",
+    "version": "1.0.0",
+    "description": "Detecta ofertas procesadas por JobHunter y muestra el CV correspondiente.",
+    "permissions": [
+        "tabs"
+    ],
+    "host_permissions": [
+        "http://127.0.0.1:8765/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "JobHunter CV",
+        "default_popup": "popup.html"
+    }
+}

@@ -1,0 +1,120 @@
+{
+    "title": "Desarrollador .Net",
+    "company": "CAPITOLE",
+    "location": "Madrid, 3 días de teletrabajo y 2 días desde casa",
+    "seniority": null,
+    "experience": {
+        "minimum_years": 4,
+        "required": true
+    },
+    "requirements": [
+        {
+            "name": ".NET Core",
+            "category": "framework",
+            "required": true,
+            "match_type": "individual",
+            "group": null
+        },
+        {
+            "name": "OOP",
+            "category": "programming_concept",
+            "required": true,
+            "match_type": "individual",
+            "group": null
+        },
+        {
+            "name": "OOD",
+            "category": "programming_concept",
+            "required": true,
+            "match_type": "individual",
+            "group": null
+        },
+        {
+            "name": "design patterns",
+            "category": "design_pattern",
+            "required": true,
+            "match_type": "individual",
+            "group": null
+        },
+        {
+            "name": "Arquitectura Hexagonal",
+            "category": "architecture",
+            "required": true,
+            "match_type": "individual",
+            "group": null
+        },
+        {
+            "name": "DDD",
+            "category": "architecture",
+            "required": true,
+            "match_type": "individual",
+            "group": null
+        },
+        {
+            "name": "CQRS",
+            "category": "architecture",
+            "required": true,
+            "match_type": "individual",
+            "group": null
+        },
+        {
+            "name": "Microservicios",
+            "category": "architecture",
+            "required": true,
+            "match_type": "individual",
+            "group": null
+        },
+        {
+            "name": "colas de mensajería",
+            "category": "messaging",
+            "required": true,
+            "match_type": "individual",
+            "group": null
+        },
+        {
+            "name": "MongoDB",
+            "category": "database",
+            "required": true,
+            "match_type": "individual",
+            "group": null
+        },
+        {
+            "name": "tests unitarios",
+            "category": "testing",
+            "required": true,
+            "match_type": "individual",
+            "group": null
+        },
+        {
+            "name": "tests de integración",
+            "category": "testing",
+            "required": true,
+            "match_type": "individual",
+            "group": null
+        },
+        {
+            "name": "Azure",
+            "category": "cloud",
+            "required": true,
+            "match_type": "alternative",
+            "group": "cloud"
+        },
+        {
+            "name": "AWS",
+            "category": "cloud",
+            "required": true,
+            "match_type": "alternative",
+            "group": "cloud"
+        },
+        {
+            "name": "Angular",
+            "category": "framework",
+            "required": false,
+            "match_type": "individual",
+            "group": null
+        }
+    ],
+    "education": [],
+    "languages": [],
+    "responsibilities": []
+}

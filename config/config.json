@@ -1,0 +1,33 @@
+{
+  "match_threshold": 80,
+  "interval_minutes": 60,
+
+  "search": {
+    "locations": [
+      "Madrid"
+    ],
+    "keywords": [
+      ".NET",
+      "C#",
+      "ASP.NET",
+      "Backend Developer",
+      "Software Engineer",
+      "Python Developer",
+      "AI Engineer",
+      "Machine Learning Engineer",
+      "Data Engineer",
+      "Cloud Engineer",
+      "Azure Developer",
+      "AWS Developer"
+    ]
+  },
+
+  "sources": {
+    "adzuna": {
+      "enabled": true,
+      "app_id": "e3dffc2c",
+      "app_key": "386e47591e709320295407e25c8d4f69",
+      "country": "es"
+    }
+  }
+}

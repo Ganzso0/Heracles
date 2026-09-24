@@ -1,0 +1,227 @@
+{
+  "candidate": {
+    "name": "Gonzalo Vega Ramos",
+    "location": "Madrid, España",
+    "email": "vegaramosgonzalo84@gmail.com",
+    "phone": "684501846",
+    "linkedin": "https://www.linkedin.com/in/gonzalo-vega-ramos/"
+  },
+
+  "education": [
+    {
+      "title": "Grado Superior en Desarrollo de Aplicaciones Web",
+      "institution": "Valle del Miro",
+      "location": "Madrid",
+      "status": "completed",
+      "period": "2019-2021"
+    },
+    {
+      "title": "Grado Superior en Desarrollo de Aplicaciones Multiplataforma",
+      "institution": "Colegio Lagomar",
+      "location": "Madrid",
+      "status": "completed",
+      "period": "2024-2025"
+    },
+    {
+      "title": "Azure y C#",
+      "institution": "Tajamar",
+      "status": "completed",
+      "period": "Septiembre 2022 - Mayo 2023",
+      "topics": [
+        "C#",
+        ".NET",
+        "ASP.NET",
+        "Entity Framework",
+        "Web API",
+        "Azure"
+      ]
+    },
+    {
+      "title": "Fundamentos de Inteligencia Artificial y Machine Learning",
+      "institution": "CEI",
+      "location": "Madrid",
+      "status": "completed",
+      "period": "2026",
+      "topics": [
+        "Machine Learning",
+        "Deep Learning",
+        "Redes neuronales",
+        "CNN",
+        "RNN/LSTM",
+        "Keras",
+        "TensorFlow",
+        "PyTorch"
+      ]
+    },
+    {
+      "title": "Arquitectura y Desarrollo de Sistemas Cloud & Data Engineering",
+      "institution": "Docencia y Multimedia Madrid",
+      "status": "in_progress",
+      "start": "Septiembre 2026",
+      "topics": [
+        "Arquitectura cloud",
+        "Microservicios",
+        "Data Engineering",
+        "Big Data",
+        "Arquitecturas orientadas a eventos",
+        "AWS",
+        "Azure",
+        "GCP"
+      ]
+    }
+  ],
+
+  "languages": [
+    {
+      "name": "Español",
+      "level": "native"
+    },
+    {
+      "name": "Inglés",
+      "level": "C1"
+    }
+  ],
+
+  "skills": {
+    "backend": [
+      "C#",
+      ".NET",
+      "ASP.NET Core",
+      "Web API",
+      "Entity Framework",
+      "REST API",
+      "Node.js",
+      "Express",
+      "Laravel",
+      "Swagger"
+    ],
+
+    "programming": [
+      "Python",
+      "C#",
+      "TypeScript",
+      "JavaScript",
+      "PHP",
+      "Java"
+    ],
+
+    "ai_ml": [
+      "Machine Learning",
+      "Deep Learning",
+      "NLP",
+      "LLM",
+      "Generative AI",
+      "RAG",
+      "Embeddings",
+      "AI Agents",
+      "Transformers",
+      "Scikit-learn",
+      "PyTorch",
+      "TensorFlow",
+      "Keras",
+      "CNN",
+      "RNN/LSTM",
+      "Arquitecturas multiagente"
+    ],
+
+    "cloud": [
+      "Microsoft Azure",
+      "AWS",
+      "GCP",
+      "Docker",
+      "Kubernetes"
+    ],
+
+    "data": [
+      "SQL",
+      "SQLite",
+      "PostgreSQL",
+      "Pandas",
+      "NumPy",
+      "ETL",
+      "Power BI"
+    ],
+
+    "tools": [
+      "Git",
+      "GitHub",
+      "Postman",
+      "Ollama",
+      "Visual Studio",
+      "VS Code"
+    ],
+
+    "frontend": [
+      "HTML5",
+      "CSS",
+      "React"
+    ]
+  },
+
+  "experience": [
+    {
+      "company": "Minsait",
+      "role": "Software Developer Intern",
+      "duration": "3 months",
+      "technologies": [
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "REST API",
+        "Postman",
+        "SailPoint IdentityNow"
+      ],
+      "achievements": [
+        "Desarrollo de un conector SaaS para SailPoint IdentityNow",
+        "Integración con APIs REST",
+        "Desarrollo de endpoints con Express",
+        "Implementación de operaciones CRUD",
+        "Pruebas y validación mediante Postman"
+      ]
+    },
+
+    {
+      "company": "Agencia para el Empleo — Ayuntamiento de Madrid",
+      "role": "Desarrollador Web",
+      "duration": "2022-2023",
+      "technologies": [],
+      "achievements": [
+        "Desarrollo y mantenimiento de aplicaciones y contenidos digitales",
+        "Colaboración con el área de Informática del Ayuntamiento de Madrid",
+        "Participación en proyectos relacionados con aplicaciones y servicios digitales de la Agencia para el Empleo"
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "Lacerta",
+      "type": "Personal AI Project",
+      "status": "In development",
+      "technologies": [
+        "Python",
+        "Qwen3",
+        "Ollama",
+        "LLM",
+        "NLP",
+        "RAG",
+        "Embeddings",
+        "AI Agents",
+        "SQLite",
+        "REST API",
+        "Arquitectura multiagente"
+      ],
+      "description": "Asistente personal local basado en LLM con arquitectura modular y multiagente.",
+      "achievements": [
+        "Diseño y evolución de una arquitectura modular para interpretación, planificación y ejecución",
+        "Integración de modelos locales mediante Ollama",
+        "Diseño de un sistema de interpretación estructurada mediante JSON",
+        "Implementación de memoria y persistencia utilizando SQLite",
+        "Diseño de agentes especializados y servicios internos para separar responsabilidades",
+        "Diseño y validación de datasets para interpretación de lenguaje natural",
+        "Validación y corrección de interpretaciones generadas por el modelo para construir datos de entrenamiento",
+        "Desarrollo de componentes de procesamiento de lenguaje y agentes"
+      ]
+    }
+  ]
+}

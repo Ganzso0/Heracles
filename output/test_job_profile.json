@@ -1,0 +1,28 @@
+{
+    "title": "Desarrollador/a Senior .NET – Híbrido Madrid, Barcelona, Jaén, Córdoba o Sevilla",
+    "company": "Kenos Technology",
+    "location": "Madrid",
+    "seniority": "Senior",
+    "experience": {
+        "minimum_years": 5,
+        "required": true
+    },
+    "requirements": [
+        {
+            "name": "ASP.NET",
+            "category": "framework",
+            "required": true,
+            "match_type": "individual",
+            "group": null
+        }
+    ],
+    "education": [],
+    "languages": [],
+    "responsibilities": [
+        "Participar en el análisis, diseño, desarrollo y mantenimiento de aplicaciones dentro del sector asegurador",
+        "Trabajar en proyectos de integración con terceros",
+        "Evolución de plataformas corporativas",
+        "Desarrollo de soluciones basadas en tecnologías Microsoft",
+        "Formar parte de reuniones técnicas"
+    ]
+}
