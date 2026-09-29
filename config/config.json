@@ -1,25 +1,53 @@
 {
   "match_threshold": 80,
   "interval_minutes": 60,
-
   "search": {
     "locations": [
       "Madrid"
     ],
-    "keywords": [
-      ".NET",
-      "C#",
-      "ASP.NET",
-      "Backend Developer",
-      "Software Engineer",
-      "Python Developer",
-      "AI Engineer",
-      "Machine Learning Engineer",
-      "Data Engineer",
-      "Cloud Engineer",
-      "Azure Developer",
-      "AWS Developer"
-    ]
+"keywords": [
+  "Python Developer",
+  "Python Developer Junior",
+  "Junior Python Developer",
+
+  "Python Backend Developer",
+  "Junior Python Backend Developer",
+
+  "AI Engineer",
+  "Junior AI Engineer",
+
+  "AI Developer",
+  "Junior AI Developer",
+
+  "LLM Engineer",
+  "Junior LLM Engineer",
+
+  "Generative AI Engineer",
+  "Junior Generative AI Engineer",
+
+  "AI Software Engineer",
+  "Junior AI Software Engineer",
+
+  "Applied AI Engineer",
+  "Junior Applied AI Engineer",
+
+  "Backend Developer",
+  "Junior Backend Developer",
+
+  "Software Engineer",
+  "Junior Software Engineer",
+
+  "Machine Learning Engineer",
+  "Junior Machine Learning Engineer",
+
+  "RAG Engineer",
+  "Junior RAG Engineer",
+
+  "AI Agents",
+
+  ".NET",
+  "C#"
+]
   },
 
   "sources": {

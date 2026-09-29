@@ -3,20 +3,75 @@ class PreFilter:
         self.profile = profile
 
         self.target_keywords = [
-            ".net", "c#", "asp.net", "backend", "software engineer",
-            "software developer", "developer", "desarrollador",
-            "programador", "python", "ai engineer", "machine learning",
-            "data engineer", "data scientist", "cloud engineer",
-            "cloud architect", "cloud developer", "azure", "aws", "gcp",
-            "devops", "docker", "kubernetes", "microservices",
+            # Python
+            "python",
+            "python developer",
+            "python backend",
+            "fastapi",
+            "django",
+            "flask",
+
+            # AI / LLM
+            "ai engineer",
+            "ai developer",
+            "ai software engineer",
+            "artificial intelligence engineer",
+            "artificial intelligence developer",
+            "llm engineer",
+            "llm developer",
+            "generative ai",
+            "generative ai engineer",
+            "generative ai developer",
+            "applied ai",
+            "applied ai engineer",
+            "rag",
+            "rag engineer",
+            "retrieval augmented generation",
+            "ai agents",
+            "llm applications",
+
+            # Machine Learning / NLP
+            "machine learning engineer",
+            "machine learning developer",
+            "nlp engineer",
+            "nlp developer",
+            "natural language processing",
+
+            # Backend
+            "backend developer",
+            "backend engineer",
+            "software engineer",
+            "software developer",
+            "developer",
+            "desarrollador",
+            "programador",
+
+            # .NET / C# — secundarios
+            ".net",
+            "c#",
+            "asp.net",
+
+            # Arquitectura / tecnologías que pueden aparecer
+            "microservices",
             "microservicios",
+            "rest api",
+            "restful api",
+            "docker",
         ]
 
         self.excluded_keywords = [
-            "cocinero", "chef de partie", "camarero", "fontanero",
-            "carnicero", "cerrajero", "pintor", "montador de ventanas",
-            "montador de máquinas", "montador de ventilación",
-            "recepcionista", "personal de hotel",
+            "cocinero",
+            "chef de partie",
+            "camarero",
+            "fontanero",
+            "carnicero",
+            "cerrajero",
+            "pintor",
+            "montador de ventanas",
+            "montador de máquinas",
+            "montador de ventilación",
+            "recepcionista",
+            "personal de hotel",
         ]
 
         self.excluded_domains = [
@@ -33,12 +88,14 @@ class PreFilter:
             if domain in url:
                 return False
 
-        text = f"{title} {description}"
-
+        # Nunca aceptar determinadas profesiones
         for keyword in self.excluded_keywords:
             if keyword in title:
                 return False
 
+        text = f"{title} {description}"
+
+        # Debe contener al menos una tecnología/rol objetivo
         for keyword in self.target_keywords:
             if keyword in text:
                 return True

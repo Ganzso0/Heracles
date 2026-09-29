@@ -8,7 +8,7 @@ from analyzer.job_analyzer import analyze_job
 from matcher.match_engine import match_job
 from cv.cv_adapter import adapt_cv
 from cv.cv_renderer import generate_cv
-from tests.cover_letter import generate_cover_letter
+from cover_letter import generate_cover_letter
 
 
 BASE_DIR = Path(__file__).resolve().parent

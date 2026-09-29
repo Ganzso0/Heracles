@@ -207,6 +207,31 @@ def add_skills(document, skills):
         )
         run.font.size = Pt(9)
 
+def add_ats_keywords(document, keywords):
+    """
+    Renderiza keywords adicionales orientadas a ATS.
+    Estas keywords no forman parte de las skills originales
+    del candidato.
+    """
+
+    if not keywords:
+        return
+
+    add_section_title(
+        document,
+        "Competencias adicionales"
+    )
+
+    paragraph = document.add_paragraph()
+
+    paragraph.paragraph_format.space_after = Pt(2)
+
+    run = paragraph.add_run(
+        ", ".join(keywords)
+    )
+
+    run.font.size = Pt(9)
+
 
 def add_education(document, education):
     """
@@ -435,6 +460,20 @@ def generate_cv(
     add_skills(
         document,
         skills
+    )
+
+    # --------------------------------------------------
+    # ATS KEYWORDS
+    # --------------------------------------------------
+
+    ats_keywords = adapted.get(
+        "ats_keywords",
+        []
+    )
+
+    add_ats_keywords(
+        document,
+        ats_keywords
     )
 
     # --------------------------------------------------

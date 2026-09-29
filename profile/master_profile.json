@@ -1,3 +1,4 @@
+
 {
   "candidate": {
     "name": "Gonzalo Vega Ramos",
@@ -179,7 +180,6 @@
         "Pruebas y validación mediante Postman"
       ]
     },
-
     {
       "company": "Agencia para el Empleo — Ayuntamiento de Madrid",
       "role": "Desarrollador Web",
@@ -195,7 +195,7 @@
 
   "projects": [
     {
-      "name": "Lacerta",
+      "name": "Aquila",
       "type": "Personal AI Project",
       "status": "In development",
       "technologies": [
@@ -222,6 +222,28 @@
         "Validación y corrección de interpretaciones generadas por el modelo para construir datos de entrenamiento",
         "Desarrollo de componentes de procesamiento de lenguaje y agentes"
       ]
+    },
+    {
+      "name": "Heracles",
+      "type": "Personal AI Project",
+      "status": "In development",
+      "technologies": [
+        "Python",
+        "LLMs",
+        "NLP",
+        "APIs",
+        "Automatización",
+        "SQLite",
+        "Git"
+      ],
+      "description": "Sistema inteligente para automatizar la búsqueda, filtrado y análisis de ofertas de empleo.",
+      "achievements": [
+        "Diseño y desarrollo de una plataforma para automatizar la búsqueda, filtrado y análisis de ofertas de empleo",
+        "Desarrollo principalmente con Python para la extracción y procesamiento de información de distintas fuentes",
+        "Implementación de análisis y matching entre ofertas de empleo y perfiles profesionales",
+        "Integración de NLP y modelos de lenguaje para analizar y clasificar ofertas según distintos criterios"
+      ]
     }
   ]
 }
+

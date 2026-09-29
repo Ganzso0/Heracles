@@ -278,7 +278,7 @@ REGLAS:
     No inventes ninguno de estos datos.
 
 30. "seniority" debe extraerse ÚNICAMENTE cuando la oferta indique
-    explícitamente un nivel como:
+explícitamente un nivel como:
 
     - Junior
     - Mid
@@ -291,73 +291,29 @@ REGLAS:
 
 31. NO deduzcas seniority únicamente por los años de experiencia.
 
-32. ANTES DE GENERAR EL JSON, realiza una comprobación final:
+32. Identifica el tipo de puesto en "role" según las funciones,
+responsabilidades y requisitos explícitos.
 
-    - Comprueba que no has añadido ninguna tecnología que no aparezca
-      explícitamente en la oferta.
-    - Comprueba que no has añadido ninguna titulación que no aparezca
-      explícitamente.
-    - Comprueba que no has añadido ningún idioma que no aparezca
-      explícitamente.
-    - Comprueba que no has convertido una tecnología específica en
-      otra más genérica.
-    - Comprueba que no has omitido una tecnología que aparece
-      explícitamente como parte del perfil solicitado.
-    - Comprueba que los requisitos "o / OR / either...or" están
-      correctamente agrupados como alternativas.
-    - Comprueba que las responsabilidades no se han convertido
-      incorrectamente en requisitos.
-33. SEPARACIÓN ESTRICTA ENTRE REQUISITOS Y RESPONSABILIDADES.
+"primary" = función principal.
+"secondary" = funciones secundarias.
 
-    UNA TECNOLOGÍA, HERRAMIENTA, PLATAFORMA, ARQUITECTURA O CONOCIMIENTO
-    NO DEBE AÑADIRSE A "requirements" ÚNICAMENTE POR APARECER EN UNA
-    RESPONSABILIDAD.
+Categorías permitidas:
+python_developer, ai_engineer, ai_developer, llm_engineer,
+generative_ai, backend_developer, software_engineer,
+machine_learning, data_engineer, cloud_engineer, devops,
+dotnet_developer, full_stack, other.
 
-    Si la tecnología aparece dentro de una frase introducida como:
-    - "Funciones"
-    - "Responsabilidades"
-    - "Tareas"
-    - "Te encargarás de..."
-    - "Trabajarás en..."
-    - "Participarás en..."
-    - "Desarrollarás..."
-    - "Realizarás..."
-    - "Tus funciones serán..."
-    
-    entonces esa mención pertenece a "responsibilities" y NO debe
-    convertirse en un requisito.
+No infieras el role únicamente por una tecnología ni uses el perfil
+del candidato. Si no hay información suficiente, usa "other".
 
-    Para añadir una tecnología a "requirements", debe existir una
-    evidencia explícita de que la empresa la solicita al candidato,
-    por ejemplo:
-    - experiencia con X
-    - conocimientos de X
-    - dominio de X
-    - experiencia mínima con X
-    - se requiere X
-    - imprescindible X
-    - se valorará X
-    - deseable X
-    - X es requisito
-    - X forma parte del perfil buscado
+35. COMPROBACIÓN FINAL.
 
-    EJEMPLO:
+No inventes información ni infieras tecnologías, titulaciones,
+idiomas o seniority. Separa correctamente requirements,
+responsibilities y role.
 
-    "Buscamos un desarrollador con experiencia en ASP.NET.
-     Funciones: desarrollo de soluciones basadas en tecnologías
-     Microsoft."
-
-    Resultado:
-
-    "ASP.NET" → requirements
-
-    "tecnologías Microsoft" → NO requirements
-    "tecnologías Microsoft" → puede aparecer únicamente dentro de
-    responsibilities.
-
-    IMPORTANTE:
-    El hecho de que una tecnología aparezca en una responsabilidad
-    NO constituye evidencia suficiente para considerarla un requisito.
+OFERTA:
+{job_text}
 
 OFERTA:
 {job_text}
@@ -369,6 +325,11 @@ Devuelve EXACTAMENTE esta estructura:
     "company": null,
     "location": null,
     "seniority": null,
+
+    "role": {{
+        "primary": null,
+        "secondary": []
+    }},
 
     "experience": {{
         "minimum_years": null,

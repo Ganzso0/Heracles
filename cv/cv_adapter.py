@@ -126,6 +126,8 @@ IMPORTANTE:
 - No modifiques información.
 - No elimines información.
 - Python conservará automáticamente todo lo que no priorices.
+- "ats_keywords" puede contener términos profesionales relevantes para
+  la oferta, aunque no aparezcan literalmente en el perfil.
 
 ==================================================
 OFERTA
@@ -276,8 +278,34 @@ Devuelve SOLO JSON válido:
     "project_priority": [],
     "education_priority": [],
     "language_priority": [],
-    "skills_priority": {{}}
+    "skills_priority": {{}},
+    "ats_keywords": []
 }}
+
+
+ATS KEYWORDS:
+
+Genera entre 5 y 15 keywords o expresiones relevantes para la oferta.
+
+Prioriza términos que aparezcan explícitamente en la oferta.
+
+Las keywords deben ser naturales y profesionales.
+
+No repitas literalmente todas las skills del perfil.
+
+No utilices ats_keywords para inventar tecnologías o experiencia.
+
+Ejemplo:
+
+[
+    "Agile",
+    "Scrum",
+    "Trabajo en equipo",
+    "Resolución de problemas",
+    "Comunicación técnica",
+    "Buenas prácticas de desarrollo",
+    "Desarrollo de APIs"
+]
 
 Las listas de prioridad pueden contener solo algunos
 elementos.
@@ -604,8 +632,15 @@ def validate_adaptation(
         "project_priority",
         "education_priority",
         "language_priority",
-        "skills_priority"
+        "skills_priority",
+        "ats_keywords"
     ]
+
+    if not isinstance(adaptation["ats_keywords"], list):
+        raise ValueError(
+            "CV Adapter inválido: "
+            "'ats_keywords' debe ser una lista."
+        )
 
     for field in required_fields:
 
