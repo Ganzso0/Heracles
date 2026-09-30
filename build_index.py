@@ -12,7 +12,7 @@ def build_index():
     index = {}
 
     if not RESULTS_DIR.exists():
-        print("❌ No existe la carpeta results/")
+        print("No existe la carpeta results/")
         return
 
     for folder in RESULTS_DIR.iterdir():

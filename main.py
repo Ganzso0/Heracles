@@ -247,7 +247,7 @@ DESCRIPCIÓN:
                     status = "REJECTED"
 
                     print(
-                        "❌ Oferta rechazada:",
+                        "Oferta RECHAZADA:",
                         match_percentage,
                         "%"
                     )
@@ -277,7 +277,7 @@ DESCRIPCIÓN:
                 status = "ACCEPTED"
 
                 print(
-                    "✅ Oferta aceptada:",
+                    "Oferta ACEPTADA:",
                     match_percentage,
                     "%"
                 )
@@ -303,7 +303,7 @@ DESCRIPCIÓN:
                 # ==========================================
 
                 print(
-                    "📝 Adaptando CV..."
+                    "Adaptando CV..."
                 )
 
                 adapted_profile = adapt_cv(
@@ -312,7 +312,7 @@ DESCRIPCIÓN:
                 )
 
                 print(
-                    "✅ CV adaptado"
+                    "CV adaptado"
                 )
 
                 # ==========================================
@@ -324,7 +324,7 @@ DESCRIPCIÓN:
                 )
 
                 print(
-                    "📁 Carpeta:",
+                    "Guardado en :",
                     output_dir
                 )
 
@@ -342,7 +342,7 @@ DESCRIPCIÓN:
                 # ==========================================
 
                 print(
-                    "📄 Generando CV..."
+                    " Generando CV..."
                 )
 
                 generate_cv(
@@ -359,10 +359,10 @@ DESCRIPCIÓN:
                 )
 
                 print(
-                    "✅ CV generado"
+                    "CV generado"
                 )
 
-                print("✉️ Generando carta de presentación...")
+                print("Generando carta de presentación...")
 
                 cover_letter = generate_cover_letter(
                     job_profile=job_profile,
@@ -373,7 +373,7 @@ DESCRIPCIÓN:
                 with open(output_dir / "carta_presentacion.txt", "w", encoding="utf-8") as file:
                     file.write(cover_letter)
 
-                print("✅ Carta de presentación generada")
+                print("Carta de presentación generada")
 
                 # ==========================================
                 # FINAL
@@ -399,7 +399,7 @@ DESCRIPCIÓN:
 
                 print()
                 print(
-                    "❌ ERROR PROCESANDO OFERTA"
+                    "ERROR PROCESANDO OFERTA"
                 )
 
                 print(

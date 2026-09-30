@@ -1,4 +1,3 @@
-
 {
   "candidate": {
     "name": "Gonzalo Vega Ramos",
@@ -34,7 +33,8 @@
         "ASP.NET",
         "Entity Framework",
         "Web API",
-        "Azure"
+        "REST API",
+        "Microsoft Azure"
       ]
     },
     {
@@ -44,11 +44,13 @@
       "status": "completed",
       "period": "2026",
       "topics": [
+        "Artificial Intelligence",
         "Machine Learning",
         "Deep Learning",
-        "Redes neuronales",
-        "CNN",
-        "RNN/LSTM",
+        "Neural Networks",
+        "Convolutional Neural Networks (CNN)",
+        "Recurrent Neural Networks (RNN)",
+        "LSTM",
         "Keras",
         "TensorFlow",
         "PyTorch"
@@ -60,13 +62,13 @@
       "status": "in_progress",
       "start": "Septiembre 2026",
       "topics": [
-        "Arquitectura cloud",
-        "Microservicios",
+        "Cloud Architecture",
+        "Microservices",
         "Data Engineering",
         "Big Data",
-        "Arquitecturas orientadas a eventos",
+        "Event-Driven Architecture",
         "AWS",
-        "Azure",
+        "Microsoft Azure",
         "GCP"
       ]
     }
@@ -84,18 +86,24 @@
   ],
 
   "skills": {
-    "backend": [
-      "C#",
-      ".NET",
-      "ASP.NET Core",
-      "Web API",
-      "Entity Framework",
-      "REST API",
-      "Node.js",
-      "Express",
-      "Laravel",
-      "Swagger"
-    ],
+"backend": [
+  "C#",
+  ".NET",
+  "ASP.NET Core",
+  "Web API",
+  "Entity Framework",
+  "REST API",
+  "RESTful APIs",
+  "Backend Development",
+  "Software Development",
+  "Python",
+  "FastAPI",
+  "Node.js",
+  "Express.js",
+  "Laravel",
+  "Swagger",
+  "API Development"
+],
 
     "programming": [
       "Python",
@@ -107,12 +115,13 @@
     ],
 
     "ai_ml": [
+      "Artificial Intelligence",
       "Machine Learning",
       "Deep Learning",
-      "NLP",
-      "LLM",
+      "Natural Language Processing (NLP)",
+      "Large Language Models (LLMs)",
       "Generative AI",
-      "RAG",
+      "Retrieval-Augmented Generation (RAG)",
       "Embeddings",
       "AI Agents",
       "Transformers",
@@ -120,15 +129,19 @@
       "PyTorch",
       "TensorFlow",
       "Keras",
-      "CNN",
-      "RNN/LSTM",
-      "Arquitecturas multiagente"
+      "Convolutional Neural Networks (CNN)",
+      "Recurrent Neural Networks (RNN)",
+      "LSTM",
+      "Multi-Agent Architecture"
     ],
 
     "cloud": [
       "Microsoft Azure",
       "AWS",
       "GCP",
+      "Cloud Architecture",
+      "Microservices",
+      "Event-Driven Architecture",
       "Docker",
       "Kubernetes"
     ],
@@ -140,6 +153,8 @@
       "Pandas",
       "NumPy",
       "ETL",
+      "Data Processing",
+      "Data Engineering",
       "Power BI"
     ],
 
@@ -167,28 +182,28 @@
       "technologies": [
         "TypeScript",
         "Node.js",
-        "Express",
+        "Express.js",
         "REST API",
         "Postman",
         "SailPoint IdentityNow"
       ],
       "achievements": [
-        "Desarrollo de un conector SaaS para SailPoint IdentityNow",
-        "Integración con APIs REST",
-        "Desarrollo de endpoints con Express",
-        "Implementación de operaciones CRUD",
-        "Pruebas y validación mediante Postman"
+        "Software development of a SaaS connector for SailPoint IdentityNow",
+        "REST API integration",
+        "API endpoint development using Express.js",
+        "Implementation of CRUD operations",
+        "API testing and validation using Postman"
       ]
     },
     {
       "company": "Agencia para el Empleo — Ayuntamiento de Madrid",
-      "role": "Desarrollador Web",
+      "role": "Web Developer",
       "duration": "2022-2023",
       "technologies": [],
       "achievements": [
-        "Desarrollo y mantenimiento de aplicaciones y contenidos digitales",
-        "Colaboración con el área de Informática del Ayuntamiento de Madrid",
-        "Participación en proyectos relacionados con aplicaciones y servicios digitales de la Agencia para el Empleo"
+        "Development and maintenance of digital applications and content",
+        "Collaboration with the IT department of Ayuntamiento de Madrid",
+        "Participation in projects related to digital applications and services for Agencia para el Empleo"
       ]
     }
   ],
@@ -198,29 +213,28 @@
       "name": "Aquila",
       "type": "Personal AI Project",
       "status": "In development",
-      "technologies": [
-        "Python",
-        "Qwen3",
-        "Ollama",
-        "LLM",
-        "NLP",
-        "RAG",
-        "Embeddings",
-        "AI Agents",
-        "SQLite",
-        "REST API",
-        "Arquitectura multiagente"
-      ],
-      "description": "Asistente personal local basado en LLM con arquitectura modular y multiagente.",
+"technologies": [
+  "Python",
+  "Qwen3",
+  "Ollama",
+  "Large Language Models (LLMs)",
+  "Natural Language Processing (NLP)",
+  "Embeddings",
+  "AI Agents",
+  "SQLite",
+  "REST API",
+  "Multi-Agent Architecture"
+],
+      "description": "Local personal AI assistant based on Large Language Models (LLMs), with a modular multi-agent architecture.",
       "achievements": [
-        "Diseño y evolución de una arquitectura modular para interpretación, planificación y ejecución",
-        "Integración de modelos locales mediante Ollama",
-        "Diseño de un sistema de interpretación estructurada mediante JSON",
-        "Implementación de memoria y persistencia utilizando SQLite",
-        "Diseño de agentes especializados y servicios internos para separar responsabilidades",
-        "Diseño y validación de datasets para interpretación de lenguaje natural",
-        "Validación y corrección de interpretaciones generadas por el modelo para construir datos de entrenamiento",
-        "Desarrollo de componentes de procesamiento de lenguaje y agentes"
+        "Designed and evolved a modular architecture for natural language interpretation, planning and execution",
+        "Integrated local Large Language Models using Ollama",
+        "Designed structured JSON-based output for natural language interpretation",
+        "Implemented data persistence and memory using SQLite",
+        "Designed specialized AI agents and internal services to separate responsibilities",
+        "Designed and validated datasets for Natural Language Processing and language understanding",
+        "Validated and corrected model-generated interpretations to build training data",
+        "Developed Natural Language Processing and AI agent components"
       ]
     },
     {
@@ -229,21 +243,20 @@
       "status": "In development",
       "technologies": [
         "Python",
-        "LLMs",
-        "NLP",
+        "Large Language Models (LLMs)",
+        "Natural Language Processing (NLP)",
         "APIs",
-        "Automatización",
+        "Automation",
         "SQLite",
         "Git"
       ],
-      "description": "Sistema inteligente para automatizar la búsqueda, filtrado y análisis de ofertas de empleo.",
+      "description": "Intelligent system for automating job search, filtering and job-offer analysis.",
       "achievements": [
-        "Diseño y desarrollo de una plataforma para automatizar la búsqueda, filtrado y análisis de ofertas de empleo",
-        "Desarrollo principalmente con Python para la extracción y procesamiento de información de distintas fuentes",
-        "Implementación de análisis y matching entre ofertas de empleo y perfiles profesionales",
-        "Integración de NLP y modelos de lenguaje para analizar y clasificar ofertas según distintos criterios"
+        "Designed and developed a platform to automate job search, filtering and job-offer analysis",
+        "Developed primarily with Python for data extraction and processing from multiple sources",
+        "Implemented candidate-job matching between job offers and professional profiles",
+        "Integrated Natural Language Processing and Large Language Models to analyze and classify job offers according to defined criteria"
       ]
     }
   ]
 }
-

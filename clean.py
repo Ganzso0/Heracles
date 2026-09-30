@@ -12,7 +12,7 @@ EXTENSIONS = {
 def main():
 
     if not RESULTS_DIR.exists():
-        print("❌ No existe la carpeta results/")
+        print("No existe la carpeta results/")
         return
 
     deleted = 0

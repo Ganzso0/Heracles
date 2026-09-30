@@ -338,8 +338,8 @@
     "https://es.jooble.org/jdp/-7195959486578686853": {
         "title": "Senior Machine Learning Engineer: ML Recall",
         "company": "Jobgether",
-        "folder": "064_Senior_Machine_Learning_Engineer__ML_Recall_Jobgether",
-        "cv": "results/064_Senior_Machine_Learning_Engineer__ML_Recall_Jobgether/CV_Gonzalo_Vega_Ramos.pdf"
+        "folder": "015_Senior_Machine_Learning_Engineer__ML_Recall_Jobgether",
+        "cv": "results/015_Senior_Machine_Learning_Engineer__ML_Recall_Jobgether/CV_Gonzalo_Vega_Ramos.pdf"
     },
     "https://es.jooble.org/jdp/4716258189846689301": {
         "title": "Machine Learning Engineer",
@@ -572,8 +572,8 @@
     "https://es.jooble.org/jdp/-2712657117948639866": {
         "title": "Beca IA Generativa en Innovación Financiera",
         "company": "Univeris",
-        "folder": "117_Beca_IA_Generativa_en_Innovación_Financiera_Univeris",
-        "cv": "results/117_Beca_IA_Generativa_en_Innovación_Financiera_Univeris/CV_Gonzalo_Vega_Ramos.pdf"
+        "folder": "002_Beca_IA_Generativa_en_Innovación_Financiera_Univeris",
+        "cv": "results/002_Beca_IA_Generativa_en_Innovación_Financiera_Univeris/CV_Gonzalo_Vega_Ramos.pdf"
     },
     "https://es.jooble.org/jdp/2925630789370522731": {
         "title": "PDB Tool Lead: Architecture, Roadmap & Delivery",
@@ -740,8 +740,8 @@
     "https://es.jooble.org/jdp/-6313890403361782184": {
         "title": "Software Engineer: Build Culture, Deliver Impact",
         "company": "Neptune North Limited",
-        "folder": "087_Software_Engineer__Build_Culture,_Deliver_Impact_Neptune_North_Limited",
-        "cv": "results/087_Software_Engineer__Build_Culture,_Deliver_Impact_Neptune_North_Limited/CV_Gonzalo_Vega_Ramos.pdf"
+        "folder": "018_Software_Engineer__Build_Culture,_Deliver_Impact_Neptune_North_Limited",
+        "cv": "results/018_Software_Engineer__Build_Culture,_Deliver_Impact_Neptune_North_Limited/CV_Gonzalo_Vega_Ramos.pdf"
     },
     "https://es.jooble.org/jdp/-3248637037419460214": {
         "title": "Software Engineer, Full Stack",
@@ -2236,5 +2236,455 @@
         "company": "Orbitant",
         "folder": "287_Python_Developer_Orbitant",
         "cv": "results/287_Python_Developer_Orbitant/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/3610953388002017793": {
+        "title": "Full-Stack Software Engineer - 24x7 Support",
+        "company": "remoteo",
+        "folder": "003_Full-Stack_Software_Engineer_-_24x7_Support_remoteo",
+        "cv": "results/003_Full-Stack_Software_Engineer_-_24x7_Support_remoteo/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-1867116323657584898": {
+        "title": ".NET Software Engineer, Madrid",
+        "company": "WIZELINE",
+        "folder": "004_.NET_Software_Engineer,_Madrid_WIZELINE",
+        "cv": "results/004_.NET_Software_Engineer,_Madrid_WIZELINE/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-1011532382003729565": {
+        "title": "Desarrollador Fullstack .NET + React — Híbrido, Crecimiento",
+        "company": "Excelia",
+        "folder": "005_Desarrollador_Fullstack_.NET_+_React_—_Híbrido,_Crecimiento_Excelia",
+        "cv": "results/005_Desarrollador_Fullstack_.NET_+_React_—_Híbrido,_Crecimiento_Excelia/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/911741235244150098": {
+        "title": "Full Stack Developer (.NET + React) - Hybrid (Madrid)",
+        "company": "AVOS Tech | A Prosegur company",
+        "folder": "006_Full_Stack_Developer_(.NET_+_React)_-_Hybrid_(Madrid)_AVOS_Tech___A_Prosegur_company",
+        "cv": "results/006_Full_Stack_Developer_(.NET_+_React)_-_Hybrid_(Madrid)_AVOS_Tech___A_Prosegur_company/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-2047128178101552079": {
+        "title": "Arquitecto/a .NET",
+        "company": "MOHURE",
+        "folder": "007_Arquitecto_a_.NET_MOHURE",
+        "cv": "results/007_Arquitecto_a_.NET_MOHURE/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/3644809188178977636": {
+        "title": "Senior .NET Developer",
+        "company": "Infotree Global Solutions Inc.",
+        "folder": "008_Senior_.NET_Developer_Infotree_Global_Solutions_Inc.",
+        "cv": "results/008_Senior_.NET_Developer_Infotree_Global_Solutions_Inc./CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-5764131688290534969": {
+        "title": ".Net Backend Developper | Madrid, Spain",
+        "company": "Hitachi ABB Power Grids",
+        "folder": "009_.Net_Backend_Developper___Madrid,_Spain_Hitachi_ABB_Power_Grids",
+        "cv": "results/009_.Net_Backend_Developper___Madrid,_Spain_Hitachi_ABB_Power_Grids/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-1163896137565154183": {
+        "title": "Senior .NET Engineer for Cloud-Native Automation Platform",
+        "company": "Infotree Global Solutions Inc.",
+        "folder": "010_Senior_.NET_Engineer_for_Cloud-Native_Automation_Platform_Infotree_Global_Solutions_Inc.",
+        "cv": "results/010_Senior_.NET_Engineer_for_Cloud-Native_Automation_Platform_Infotree_Global_Solutions_Inc./CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/4140360402123067038": {
+        "title": "Desarrollador .NET - ASP.NET Core en Finanzas (CDMX)",
+        "company": "Optimissa",
+        "folder": "011_Desarrollador_.NET_-_ASP.NET_Core_en_Finanzas_(CDMX)_Optimissa",
+        "cv": "results/011_Desarrollador_.NET_-_ASP.NET_Core_en_Finanzas_(CDMX)_Optimissa/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/3038059581883460810": {
+        "title": "Junior Associate - Data Strategy Madrid, Remote",
+        "company": "Clarity",
+        "folder": "012_Junior_Associate_-_Data_Strategy_Madrid,_Remote_Clarity",
+        "cv": "results/012_Junior_Associate_-_Data_Strategy_Madrid,_Remote_Clarity/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/6877655043467969003": {
+        "title": "Field Services Engineer",
+        "company": "CATL",
+        "folder": "013_Field_Services_Engineer_CATL",
+        "cv": "results/013_Field_Services_Engineer_CATL/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/5446319043926981594": {
+        "title": "Machine Learning Engineer 100% (f/m/d), Madrid",
+        "company": "Julius Baer",
+        "folder": "014_Machine_Learning_Engineer_100%_(f_m_d),_Madrid_Julius_Baer",
+        "cv": "results/014_Machine_Learning_Engineer_100%_(f_m_d),_Madrid_Julius_Baer/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-6439402297170142555": {
+        "title": "Senior Machine Learning Engineer",
+        "company": "EPAM Systems",
+        "folder": "016_Senior_Machine_Learning_Engineer_EPAM_Systems",
+        "cv": "results/016_Senior_Machine_Learning_Engineer_EPAM_Systems/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/9121770436724469993": {
+        "title": "Senior Software Engineer (.NET)",
+        "company": "Frontiers",
+        "folder": "017_Senior_Software_Engineer_(.NET)_Frontiers",
+        "cv": "results/017_Senior_Software_Engineer_(.NET)_Frontiers/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-7936568420580175608": {
+        "title": "(Senior) Software Engineer",
+        "company": "Creandum",
+        "folder": "019_(Senior)_Software_Engineer_Creandum",
+        "cv": "results/019_(Senior)_Software_Engineer_Creandum/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-5432436734652132552": {
+        "title": "Senior Software Engineer - EuroDrone HUMS & Offboard Tools",
+        "company": "Airbus",
+        "folder": "020_Senior_Software_Engineer_-_EuroDrone_HUMS_&_Offboard_Tools_Airbus",
+        "cv": "results/020_Senior_Software_Engineer_-_EuroDrone_HUMS_&_Offboard_Tools_Airbus/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-1294616842015613558": {
+        "title": "Senior Tech Generalist (Software Engineer)",
+        "company": "Capchase",
+        "folder": "021_Senior_Tech_Generalist_(Software_Engineer)_Capchase",
+        "cv": "results/021_Senior_Tech_Generalist_(Software_Engineer)_Capchase/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-6445553187009930282": {
+        "title": "Software Engineer",
+        "company": "Getnet Platforms",
+        "folder": "022_Software_Engineer_Getnet_Platforms",
+        "cv": "results/022_Software_Engineer_Getnet_Platforms/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-6660052571413916064": {
+        "title": "Software Engineering Intern",
+        "company": "Thales",
+        "folder": "023_Software_Engineering_Intern_Thales",
+        "cv": "results/023_Software_Engineering_Intern_Thales/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-7505006570351424497": {
+        "title": "Software Engineer III",
+        "company": "Sinch",
+        "folder": "024_Software_Engineer_III_Sinch",
+        "cv": "results/024_Software_Engineer_III_Sinch/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/7131320348884332255": {
+        "title": "Software Engineer — Web & Mobile, Remote‑Friendly Growth",
+        "company": "Galadrim",
+        "folder": "025_Software_Engineer_—_Web_&_Mobile,_Remote‑Friendly_Growth_Galadrim",
+        "cv": "results/025_Software_Engineer_—_Web_&_Mobile,_Remote‑Friendly_Growth_Galadrim/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-2301680381836459962": {
+        "title": "Senior Software Engineer .NET | Híbrido Madrid",
+        "company": "knowmad mood",
+        "folder": "026_Senior_Software_Engineer_.NET___Híbrido_Madrid_knowmad_mood",
+        "cv": "results/026_Senior_Software_Engineer_.NET___Híbrido_Madrid_knowmad_mood/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/450470826295867863": {
+        "title": "Software Engineer",
+        "company": "BOARD Deutschland GmbH",
+        "folder": "027_Software_Engineer_BOARD_Deutschland_GmbH",
+        "cv": "results/027_Software_Engineer_BOARD_Deutschland_GmbH/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-2654986862599978674": {
+        "title": "Senior Software Engineer",
+        "company": "Tmoose",
+        "folder": "028_Senior_Software_Engineer_Tmoose",
+        "cv": "results/028_Senior_Software_Engineer_Tmoose/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/4599074001837201718": {
+        "title": "Backend Developer (C .NET)",
+        "company": "remoteo",
+        "folder": "029_Backend_Developer_(C_.NET)_remoteo",
+        "cv": "results/029_Backend_Developer_(C_.NET)_remoteo/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/4937467874236422188": {
+        "title": "Generative AI Software Engineer for Scalable Solutions",
+        "company": "Iberdrola SA",
+        "folder": "030_Generative_AI_Software_Engineer_for_Scalable_Solutions_Iberdrola_SA",
+        "cv": "results/030_Generative_AI_Software_Engineer_for_Scalable_Solutions_Iberdrola_SA/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/4693869632551214517": {
+        "title": "AI Software Engineer (Full Stack) ID51390",
+        "company": "AgileEngine",
+        "folder": "031_AI_Software_Engineer_(Full_Stack)_ID51390_AgileEngine",
+        "cv": "results/031_AI_Software_Engineer_(Full_Stack)_ID51390_AgileEngine/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-7973844797012706037": {
+        "title": "Senior Software Engineer, AI",
+        "company": "Dormont Manufacturing Co",
+        "folder": "032_Senior_Software_Engineer,_AI_Dormont_Manufacturing_Co",
+        "cv": "results/032_Senior_Software_Engineer,_AI_Dormont_Manufacturing_Co/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/4532176283414910050": {
+        "title": "AI Software Engineer - Generative AI, End-to-End Solutions",
+        "company": "Iberdrola Energie Deutschland GmbH",
+        "folder": "033_AI_Software_Engineer_-_Generative_AI,_End-to-End_Solutions_Iberdrola_Energie_Deutschland_GmbH",
+        "cv": "results/033_AI_Software_Engineer_-_Generative_AI,_End-to-End_Solutions_Iberdrola_Energie_Deutschland_GmbH/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-4017351441650264435": {
+        "title": "AI Software Engineer",
+        "company": "Iberdrola Group",
+        "folder": "034_AI_Software_Engineer_Iberdrola_Group",
+        "cv": "results/034_AI_Software_Engineer_Iberdrola_Group/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-5325440338857233646": {
+        "title": "AI Software Engineer - Hybrid Madrid",
+        "company": "remoteo",
+        "folder": "035_AI_Software_Engineer_-_Hybrid_Madrid_remoteo",
+        "cv": "results/035_AI_Software_Engineer_-_Hybrid_Madrid_remoteo/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/4491449298890851365": {
+        "title": "Senior Software Engineer — AI-First, Cross-Stack Builder",
+        "company": "Creandum",
+        "folder": "036_Senior_Software_Engineer_—_AI-First,_Cross-Stack_Builder_Creandum",
+        "cv": "results/036_Senior_Software_Engineer_—_AI-First,_Cross-Stack_Builder_Creandum/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-5171249309871414561": {
+        "title": "Forward Deployed AI Engineer, Spain - BCG X",
+        "company": "BCG X",
+        "folder": "037_Forward_Deployed_AI_Engineer,_Spain_-_BCG_X_BCG_X",
+        "cv": "results/037_Forward_Deployed_AI_Engineer,_Spain_-_BCG_X_BCG_X/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/6214045875203839408": {
+        "title": "AI Engineer",
+        "company": "sabio",
+        "folder": "038_AI_Engineer_sabio",
+        "cv": "results/038_AI_Engineer_sabio/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-4543174719244986241": {
+        "title": "Generative AI Engineer for Scalable End-to-End Solutions",
+        "company": "Avangrid, Inc.",
+        "folder": "039_Generative_AI_Engineer_for_Scalable_End-to-End_Solutions_Avangrid,_Inc.",
+        "cv": "results/039_Generative_AI_Engineer_for_Scalable_End-to-End_Solutions_Avangrid,_Inc./CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/8798217632143155554": {
+        "title": "Junior DataOps Engineer",
+        "company": "Amino & 24i",
+        "folder": "040_Junior_DataOps_Engineer_Amino_&_24i",
+        "cv": "results/040_Junior_DataOps_Engineer_Amino_&_24i/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/4805185206744346620": {
+        "title": "Ingeniero/a Junior de Automatización (Comunicaciones)- Oficina- Madrid",
+        "company": "ELECTREN S.A.",
+        "folder": "041_Ingeniero_a_Junior_de_Automatización_(Comunicaciones)-_Oficina-_Madrid_ELECTREN_S.A.",
+        "cv": "results/041_Ingeniero_a_Junior_de_Automatización_(Comunicaciones)-_Oficina-_Madrid_ELECTREN_S.A./CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/5846053888250066962": {
+        "title": "Production AI Agent Engineer for Scalable LLM Systems",
+        "company": "Mondia",
+        "folder": "042_Production_AI_Agent_Engineer_for_Scalable_LLM_Systems_Mondia",
+        "cv": "results/042_Production_AI_Agent_Engineer_for_Scalable_LLM_Systems_Mondia/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/9189603882740472122": {
+        "title": "Ultralytics LLM Engineer",
+        "company": "Tmoose",
+        "folder": "043_Ultralytics_LLM_Engineer_Tmoose",
+        "cv": "results/043_Ultralytics_LLM_Engineer_Tmoose/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/9104018722300347509": {
+        "title": "Remote AI Tooling Engineer - Developer Platforms",
+        "company": "Jobgether",
+        "folder": "044_Remote_AI_Tooling_Engineer_-_Developer_Platforms_Jobgether",
+        "cv": "results/044_Remote_AI_Tooling_Engineer_-_Developer_Platforms_Jobgether/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-8887595501672434677": {
+        "title": "Fullstack Developer (AI Driven Development)",
+        "company": "Babel Group.",
+        "folder": "045_Fullstack_Developer_(AI_Driven_Development)_Babel_Group.",
+        "cv": "results/045_Fullstack_Developer_(AI_Driven_Development)_Babel_Group./CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-1674276251200651807": {
+        "title": "AI Sales Developer: Build Pipeline & Close Opportunities",
+        "company": "shakersworks.com",
+        "folder": "046_AI_Sales_Developer__Build_Pipeline_&_Close_Opportunities_shakersworks.com",
+        "cv": "results/046_AI_Sales_Developer__Build_Pipeline_&_Close_Opportunities_shakersworks.com/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-9098471152302863337": {
+        "title": "Junior AI Sales Developer",
+        "company": "shakersworks.com",
+        "folder": "047_Junior_AI_Sales_Developer_shakersworks.com",
+        "cv": "results/047_Junior_AI_Sales_Developer_shakersworks.com/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/5094421063951650033": {
+        "title": "Remote AI Sales Developer — Launch Your Tech BD Career",
+        "company": "shakersworks.com",
+        "folder": "048_Remote_AI_Sales_Developer_—_Launch_Your_Tech_BD_Career_shakersworks.com",
+        "cv": "results/048_Remote_AI_Sales_Developer_—_Launch_Your_Tech_BD_Career_shakersworks.com/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-692025546594901919": {
+        "title": "Desarrollador Backend Senior",
+        "company": "The Consulting Solutions",
+        "folder": "049_Desarrollador_Backend_Senior_The_Consulting_Solutions",
+        "cv": "results/049_Desarrollador_Backend_Senior_The_Consulting_Solutions/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/7677810929353632925": {
+        "title": "Senior Backend Software Developer (JAVA) - Aplicativos ámbito sanidad",
+        "company": "Aubay Spain",
+        "folder": "050_Senior_Backend_Software_Developer_(JAVA)_-_Aplicativos_ámbito_sanidad_Aubay_Spain",
+        "cv": "results/050_Senior_Backend_Software_Developer_(JAVA)_-_Aplicativos_ámbito_sanidad_Aubay_Spain/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-2377695966847320404": {
+        "title": "Mid-Senior Python Engineer - Scalable Backend, Remote",
+        "company": "N-iX",
+        "folder": "051_Mid-Senior_Python_Engineer_-_Scalable_Backend,_Remote_N-iX",
+        "cv": "results/051_Mid-Senior_Python_Engineer_-_Scalable_Backend,_Remote_N-iX/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-7354995430031463004": {
+        "title": "Backend Engineer (Python) with ML",
+        "company": "ERNI",
+        "folder": "052_Backend_Engineer_(Python)_with_ML_ERNI",
+        "cv": "results/052_Backend_Engineer_(Python)_with_ML_ERNI/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/9143784222402412496": {
+        "title": "Software Engineer - Backend (Python, Cloud & APIs)",
+        "company": "Managing Composites",
+        "folder": "053_Software_Engineer_-_Backend_(Python,_Cloud_&_APIs)_Managing_Composites",
+        "cv": "results/053_Software_Engineer_-_Backend_(Python,_Cloud_&_APIs)_Managing_Composites/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-2406304221873755863": {
+        "title": "Senior Python Engineer",
+        "company": "Plexus Tech",
+        "folder": "054_Senior_Python_Engineer_Plexus_Tech",
+        "cv": "results/054_Senior_Python_Engineer_Plexus_Tech/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/4616979288195746794": {
+        "title": "Desarrollador/a Python & Go",
+        "company": "Avalora",
+        "folder": "055_Desarrollador_a_Python_&_Go_Avalora",
+        "cv": "results/055_Desarrollador_a_Python_&_Go_Avalora/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5900934023?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Senior Backend Engineer.Net - Madrid - Madrid, Comunidad De Madrid, Spain",
+        "company": "VORTECH PCI GROUP",
+        "folder": "056_Senior_Backend_Engineer.Net_-_Madrid_-_Madrid,_Comunidad_De_Madrid,_Spain_VORTECH_PCI_GROUP",
+        "cv": "results/056_Senior_Backend_Engineer.Net_-_Madrid_-_Madrid,_Comunidad_De_Madrid,_Spain_VORTECH_PCI_GROUP/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5901942271?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Junior AI Operations Specialist",
+        "company": "NEWRY GLOBAL MEDIA",
+        "folder": "057_Junior_AI_Operations_Specialist_NEWRY_GLOBAL_MEDIA",
+        "cv": "results/057_Junior_AI_Operations_Specialist_NEWRY_GLOBAL_MEDIA/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5900413475?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Software Engineer, Internal Platforms",
+        "company": "RemoteJobsOne",
+        "folder": "058_Software_Engineer,_Internal_Platforms_RemoteJobsOne",
+        "cv": "results/058_Software_Engineer,_Internal_Platforms_RemoteJobsOne/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5900413423?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Software Engineer, Data Platforms",
+        "company": "RemoteJobsOne",
+        "folder": "059_Software_Engineer,_Data_Platforms_RemoteJobsOne",
+        "cv": "results/059_Software_Engineer,_Data_Platforms_RemoteJobsOne/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5900935119?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Junior Software Engineer",
+        "company": "GMV",
+        "folder": "060_Junior_Software_Engineer_GMV",
+        "cv": "results/060_Junior_Software_Engineer_GMV/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5900935047?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Embedded Software Engineer",
+        "company": "GMV",
+        "folder": "061_Embedded_Software_Engineer_GMV",
+        "cv": "results/061_Embedded_Software_Engineer_GMV/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5900447629?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Software Engineer - Madrid",
+        "company": "Galadrim",
+        "folder": "062_Software_Engineer_-_Madrid_Galadrim",
+        "cv": "results/062_Software_Engineer_-_Madrid_Galadrim/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5900935138?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Software Engineer (Python)",
+        "company": "Prima",
+        "folder": "063_Software_Engineer_(Python)_Prima",
+        "cv": "results/063_Software_Engineer_(Python)_Prima/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5900413771?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Senior Software Engineer",
+        "company": "RemoteJobsOne",
+        "folder": "064_Senior_Software_Engineer_RemoteJobsOne",
+        "cv": "results/064_Senior_Software_Engineer_RemoteJobsOne/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5900413148?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Senior Software Engineer",
+        "company": "RemoteJobsOne",
+        "folder": "065_Senior_Software_Engineer_RemoteJobsOne",
+        "cv": "results/065_Senior_Software_Engineer_RemoteJobsOne/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5900413049?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Senior Software Engineer",
+        "company": "RemoteJobsOne",
+        "folder": "066_Senior_Software_Engineer_RemoteJobsOne",
+        "cv": "results/066_Senior_Software_Engineer_RemoteJobsOne/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5900412888?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Senior Software Engineer",
+        "company": "RemoteJobsOne",
+        "folder": "067_Senior_Software_Engineer_RemoteJobsOne",
+        "cv": "results/067_Senior_Software_Engineer_RemoteJobsOne/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5900935048?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Software Engineer",
+        "company": "GMV",
+        "folder": "068_Software_Engineer_GMV",
+        "cv": "results/068_Software_Engineer_GMV/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5902042823?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Software Engineer",
+        "company": "PagoNxt",
+        "folder": "069_Software_Engineer_PagoNxt",
+        "cv": "results/069_Software_Engineer_PagoNxt/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5900413435?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Software Engineer",
+        "company": "RemoteJobsOne",
+        "folder": "070_Software_Engineer_RemoteJobsOne",
+        "cv": "results/070_Software_Engineer_RemoteJobsOne/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5900413122?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Software Engineer",
+        "company": "RemoteJobsOne",
+        "folder": "071_Software_Engineer_RemoteJobsOne",
+        "cv": "results/071_Software_Engineer_RemoteJobsOne/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5900935130?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Grow With Us – Senior .Net Developers For Danish Tech Hub In Madrid",
+        "company": "De",
+        "folder": "072_Grow_With_Us_–_Senior_.Net_Developers_For_Danish_Tech_Hub_In_Madrid_De",
+        "cv": "results/072_Grow_With_Us_–_Senior_.Net_Developers_For_Danish_Tech_Hub_In_Madrid_De/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5900934317?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Software Engineer At Gmv",
+        "company": "GMV",
+        "folder": "073_Software_Engineer_At_Gmv_GMV",
+        "cv": "results/073_Software_Engineer_At_Gmv_GMV/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5900935054?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Full Stack .Net Developer",
+        "company": "GMV",
+        "folder": "074_Full_Stack_.Net_Developer_GMV",
+        "cv": "results/074_Full_Stack_.Net_Developer_GMV/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5900933598?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Java Backend Developer For Space Traffic Management Projects",
+        "company": "GMV",
+        "folder": "075_Java_Backend_Developer_For_Space_Traffic_Management_Projects_GMV",
+        "cv": "results/075_Java_Backend_Developer_For_Space_Traffic_Management_Projects_GMV/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5900935053?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Java Backend Developer For Space Traffic Management Projects",
+        "company": "GMV",
+        "folder": "076_Java_Backend_Developer_For_Space_Traffic_Management_Projects_GMV",
+        "cv": "results/076_Java_Backend_Developer_For_Space_Traffic_Management_Projects_GMV/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5900413962?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Software Engineer - Open Source Contributions - Remote",
+        "company": "YO AI Labs",
+        "folder": "077_Software_Engineer_-_Open_Source_Contributions_-_Remote_YO_AI_Labs",
+        "cv": "results/077_Software_Engineer_-_Open_Source_Contributions_-_Remote_YO_AI_Labs/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5902042890?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Fullstack Developer (Ai Driven Development)",
+        "company": "Babel",
+        "folder": "078_Fullstack_Developer_(Ai_Driven_Development)_Babel",
+        "cv": "results/078_Fullstack_Developer_(Ai_Driven_Development)_Babel/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5900413305?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "AI Engineer",
+        "company": "RemoteJobsOne",
+        "folder": "079_AI_Engineer_RemoteJobsOne",
+        "cv": "results/079_AI_Engineer_RemoteJobsOne/CV_Gonzalo_Vega_Ramos.pdf"
     }
 }
