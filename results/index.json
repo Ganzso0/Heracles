@@ -716,8 +716,8 @@
     "https://es.jooble.org/jdp/-4051855383205308255": {
         "title": "CAR-T Software Engineer",
         "company": "Jobtailor",
-        "folder": "083_CAR-T_Software_Engineer_Jobtailor",
-        "cv": "results/083_CAR-T_Software_Engineer_Jobtailor/CV_Gonzalo_Vega_Ramos.pdf"
+        "folder": "025_CAR-T_Software_Engineer_Jobtailor",
+        "cv": "results/025_CAR-T_Software_Engineer_Jobtailor/CV_Gonzalo_Vega_Ramos.pdf"
     },
     "https://es.jooble.org/jdp/1024629095327979284": {
         "title": "Software Engineer",
@@ -2686,5 +2686,401 @@
         "company": "RemoteJobsOne",
         "folder": "079_AI_Engineer_RemoteJobsOne",
         "cv": "results/079_AI_Engineer_RemoteJobsOne/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/5260616845877296731": {
+        "title": ".NET Application Support Developer, presencial",
+        "company": "PANEL Sistemas Informáticos",
+        "folder": "002_.NET_Application_Support_Developer,_presencial_PANEL_Sistemas_Informáticos",
+        "cv": "results/002_.NET_Application_Support_Developer,_presencial_PANEL_Sistemas_Informáticos/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-105016580998816227": {
+        "title": "Senior Developer .NET",
+        "company": "Metrica España",
+        "folder": "003_Senior_Developer_.NET_Metrica_España",
+        "cv": "results/003_Senior_Developer_.NET_Metrica_España/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-2431376805743986589": {
+        "title": "SR DEV (.NET)",
+        "company": "ADEREN",
+        "folder": "004_SR_DEV_(.NET)_ADEREN",
+        "cv": "results/004_SR_DEV_(.NET)_ADEREN/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-5292716019692939265": {
+        "title": ".NET Software Engineer, Madrid",
+        "company": "WIZELINE",
+        "folder": "005_.NET_Software_Engineer,_Madrid_WIZELINE",
+        "cv": "results/005_.NET_Software_Engineer,_Madrid_WIZELINE/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/1052736482228700035": {
+        "title": "Technical Lead - AI Agents & Integration Architecture",
+        "company": "knowmad mood",
+        "folder": "006_Technical_Lead_-_AI_Agents_&_Integration_Architecture_knowmad_mood",
+        "cv": "results/006_Technical_Lead_-_AI_Agents_&_Integration_Architecture_knowmad_mood/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/154989046491737190": {
+        "title": "AI Operations Builder — Junior, Automate & Deploy AI Agents",
+        "company": "Join",
+        "folder": "007_AI_Operations_Builder_—_Junior,_Automate_&_Deploy_AI_Agents_Join",
+        "cv": "results/007_AI_Operations_Builder_—_Junior,_Automate_&_Deploy_AI_Agents_Join/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/5079517506109143292": {
+        "title": "Remote Control Centre Engineer - Wind & Storage",
+        "company": "Envision Energy",
+        "folder": "008_Remote_Control_Centre_Engineer_-_Wind_&_Storage_Envision_Energy",
+        "cv": "results/008_Remote_Control_Centre_Engineer_-_Wind_&_Storage_Envision_Energy/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/1989277707298008285": {
+        "title": "Protection and Control Engineer (all genders)",
+        "company": "Q ENERGY",
+        "folder": "009_Protection_and_Control_Engineer_(all_genders)_Q_ENERGY",
+        "cv": "results/009_Protection_and_Control_Engineer_(all_genders)_Q_ENERGY/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-8883247412111960341": {
+        "title": "Field Services Engineer",
+        "company": "CATL",
+        "folder": "010_Field_Services_Engineer_CATL",
+        "cv": "results/010_Field_Services_Engineer_CATL/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-4309516322425298883": {
+        "title": "Python Machine Learning Engineer, hibrido",
+        "company": "UST",
+        "folder": "011_Python_Machine_Learning_Engineer,_hibrido_UST",
+        "cv": "results/011_Python_Machine_Learning_Engineer,_hibrido_UST/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-745346190476944641": {
+        "title": "Machine Learning Engineer III",
+        "company": "Expedia Group",
+        "folder": "012_Machine_Learning_Engineer_III_Expedia_Group",
+        "cv": "results/012_Machine_Learning_Engineer_III_Expedia_Group/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/6551830681558555050": {
+        "title": "Machine Learning Engineer (MLOps & Forecasting)",
+        "company": "Metrica España",
+        "folder": "013_Machine_Learning_Engineer_(MLOps_&_Forecasting)_Metrica_España",
+        "cv": "results/013_Machine_Learning_Engineer_(MLOps_&_Forecasting)_Metrica_España/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-7920198138771927214": {
+        "title": "Senior Machine Learning Engineer",
+        "company": "Expedia Group",
+        "folder": "014_Senior_Machine_Learning_Engineer_Expedia_Group",
+        "cv": "results/014_Senior_Machine_Learning_Engineer_Expedia_Group/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/6172010367533649683": {
+        "title": "Machine Learning Engineer",
+        "company": "Metrica España",
+        "folder": "015_Machine_Learning_Engineer_Metrica_España",
+        "cv": "results/015_Machine_Learning_Engineer_Metrica_España/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-1144741901642210413": {
+        "title": "Machine Learning Engineer 100% (f/m/d), Madrid",
+        "company": "Julius Baer",
+        "folder": "016_Machine_Learning_Engineer_100%_(f_m_d),_Madrid_Julius_Baer",
+        "cv": "results/016_Machine_Learning_Engineer_100%_(f_m_d),_Madrid_Julius_Baer/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/388711193702232780": {
+        "title": "Software Engineer",
+        "company": "Nexthink",
+        "folder": "017_Software_Engineer_Nexthink",
+        "cv": "results/017_Software_Engineer_Nexthink/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/3603484217357800854": {
+        "title": "Software Engineer .NET",
+        "company": "Auctane",
+        "folder": "018_Software_Engineer_.NET_Auctane",
+        "cv": "results/018_Software_Engineer_.NET_Auctane/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-5727315057264228642": {
+        "title": "Modelling and Simulation Junior Software Engineer, Madrid",
+        "company": "Airbus",
+        "folder": "019_Modelling_and_Simulation_Junior_Software_Engineer,_Madrid_Airbus",
+        "cv": "results/019_Modelling_and_Simulation_Junior_Software_Engineer,_Madrid_Airbus/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-962651753356919059": {
+        "title": "Senior Software Engineer",
+        "company": "MediaRadar",
+        "folder": "020_Senior_Software_Engineer_MediaRadar",
+        "cv": "results/020_Senior_Software_Engineer_MediaRadar/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-6073846310284137042": {
+        "title": "Software Engineer",
+        "company": "Electronic Arts España",
+        "folder": "021_Software_Engineer_Electronic_Arts_España",
+        "cv": "results/021_Software_Engineer_Electronic_Arts_España/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/2770635526341701527": {
+        "title": "Junior Cybersecurity Software Engineer",
+        "company": "Airbus",
+        "folder": "022_Junior_Cybersecurity_Software_Engineer_Airbus",
+        "cv": "results/022_Junior_Cybersecurity_Software_Engineer_Airbus/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/2903439716020716335": {
+        "title": "Software Developer Engineer II, Business Delivery Experience",
+        "company": "Amazon España",
+        "folder": "023_Software_Developer_Engineer_II,_Business_Delivery_Experience_Amazon_España",
+        "cv": "results/023_Software_Developer_Engineer_II,_Business_Delivery_Experience_Amazon_España/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-3547576961584186576": {
+        "title": "Software Development Engineer SDE (Madrid), EUIC Core Search CX",
+        "company": "Amazon España",
+        "folder": "024_Software_Development_Engineer_SDE_(Madrid),_EUIC_Core_Search_CX_Amazon_España",
+        "cv": "results/024_Software_Development_Engineer_SDE_(Madrid),_EUIC_Core_Search_CX_Amazon_España/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/3274110707090147433": {
+        "title": "SGTO_Software Engineering Analyst I - Grupo Santander",
+        "company": "Jobrapido",
+        "folder": "026_SGTO_Software_Engineering_Analyst_I_-_Grupo_Santander_Jobrapido",
+        "cv": "results/026_SGTO_Software_Engineering_Analyst_I_-_Grupo_Santander_Jobrapido/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/8979892291322038777": {
+        "title": "Applied AI Engineer",
+        "company": "Santander",
+        "folder": "027_Applied_AI_Engineer_Santander",
+        "cv": "results/027_Applied_AI_Engineer_Santander/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-6791058431701317613": {
+        "title": "Senior Software Engineer",
+        "company": "Pearson",
+        "folder": "028_Senior_Software_Engineer_Pearson",
+        "cv": "results/028_Senior_Software_Engineer_Pearson/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/2483920368405714288": {
+        "title": "Principal Software Engineer - QuantumBlack, AI by McKinsey",
+        "company": "McKinsey & Company España",
+        "folder": "029_Principal_Software_Engineer_-_QuantumBlack,_AI_by_McKinsey_McKinsey_&_Company_España",
+        "cv": "results/029_Principal_Software_Engineer_-_QuantumBlack,_AI_by_McKinsey_McKinsey_&_Company_España/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-2714645091753419057": {
+        "title": "AI Software Engineer",
+        "company": "Iberdrola",
+        "folder": "030_AI_Software_Engineer_Iberdrola",
+        "cv": "results/030_AI_Software_Engineer_Iberdrola/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-6338710159225438489": {
+        "title": "AI Native Software Engineer",
+        "company": "JT International S.A.",
+        "folder": "031_AI_Native_Software_Engineer_JT_International_S.A.",
+        "cv": "results/031_AI_Native_Software_Engineer_JT_International_S.A./CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/6432632282464129766": {
+        "title": "Senior Software Engineer - AI Training Projects",
+        "company": "Andrews Recruitment Group",
+        "folder": "032_Senior_Software_Engineer_-_AI_Training_Projects_Andrews_Recruitment_Group",
+        "cv": "results/032_Senior_Software_Engineer_-_AI_Training_Projects_Andrews_Recruitment_Group/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-7959236262800227563": {
+        "title": "Software Engineer IA Agentiva (Agentic AI), Madrid",
+        "company": "Arelance",
+        "folder": "033_Software_Engineer_IA_Agentiva_(Agentic_AI),_Madrid_Arelance",
+        "cv": "results/033_Software_Engineer_IA_Agentiva_(Agentic_AI),_Madrid_Arelance/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/7976214149747982594": {
+        "title": "AI Software Engineer, Madrid",
+        "company": "Accenture",
+        "folder": "034_AI_Software_Engineer,_Madrid_Accenture",
+        "cv": "results/034_AI_Software_Engineer,_Madrid_Accenture/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/350953167257328827": {
+        "title": "Senior AI & ML Engineer / Generative AI, hibrido",
+        "company": "Accenture",
+        "folder": "035_Senior_AI_&_ML_Engineer___Generative_AI,_hibrido_Accenture",
+        "cv": "results/035_Senior_AI_&_ML_Engineer___Generative_AI,_hibrido_Accenture/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/1997157755731521355": {
+        "title": "Senior Generative AI Engineer",
+        "company": "IQVIA",
+        "folder": "036_Senior_Generative_AI_Engineer_IQVIA",
+        "cv": "results/036_Senior_Generative_AI_Engineer_IQVIA/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-4073844851977989956": {
+        "title": "Fullstack Developer (AI Driven Development)",
+        "company": "Babel",
+        "folder": "037_Fullstack_Developer_(AI_Driven_Development)_Babel",
+        "cv": "results/037_Fullstack_Developer_(AI_Driven_Development)_Babel/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/2784519842754694752": {
+        "title": "AI Automation Developer, hibrido",
+        "company": "Oxon Epidemiology",
+        "folder": "038_AI_Automation_Developer,_hibrido_Oxon_Epidemiology",
+        "cv": "results/038_AI_Automation_Developer,_hibrido_Oxon_Epidemiology/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/2149213735820607632": {
+        "title": "AI Developer",
+        "company": null,
+        "folder": "039_AI_Developer_Sin_empresa",
+        "cv": "results/039_AI_Developer_Sin_empresa/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/2459833478997461004": {
+        "title": "AI Engineer (Madrid España)",
+        "company": "secture.com",
+        "folder": "040_AI_Engineer_(Madrid_España)_secture.com",
+        "cv": "results/040_AI_Engineer_(Madrid_España)_secture.com/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-610059845702823076": {
+        "title": "Senior Backend developer .NET (H/M/X)",
+        "company": null,
+        "folder": "041_Senior_Backend_developer_.NET_(H_M_X)_Sin_empresa",
+        "cv": "results/041_Senior_Backend_developer_.NET_(H_M_X)_Sin_empresa/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-3189141586326233461": {
+        "title": "Java Architect / Senior Backend Developer, hibrido",
+        "company": "knowmad mood",
+        "folder": "042_Java_Architect___Senior_Backend_Developer,_hibrido_knowmad_mood",
+        "cv": "results/042_Java_Architect___Senior_Backend_Developer,_hibrido_knowmad_mood/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-265144837481293708": {
+        "title": "Backend Developer (Java / Spring Boot / AWS) - Spain (Hybrid/Remote)",
+        "company": "Talent Connect",
+        "folder": "043_Backend_Developer_(Java___Spring_Boot___AWS)_-_Spain_(Hybrid_Remote)_Talent_Connect",
+        "cv": "results/043_Backend_Developer_(Java___Spring_Boot___AWS)_-_Spain_(Hybrid_Remote)_Talent_Connect/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-5342037957506826197": {
+        "title": "Senior Backend Java Developer (Microservices / AWS) - Spain (Hybrid/Remote)",
+        "company": "Talent Connect",
+        "folder": "044_Senior_Backend_Java_Developer_(Microservices___AWS)_-_Spain_(Hybrid_Remote)_Talent_Connect",
+        "cv": "results/044_Senior_Backend_Java_Developer_(Microservices___AWS)_-_Spain_(Hybrid_Remote)_Talent_Connect/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-9054322635376207044": {
+        "title": "Senior PHP Developer",
+        "company": "Adiciona",
+        "folder": "045_Senior_PHP_Developer_Adiciona",
+        "cv": "results/045_Senior_PHP_Developer_Adiciona/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-8587247220147631738": {
+        "title": "Python Integration Engineer",
+        "company": "Tessera Human Capital",
+        "folder": "046_Python_Integration_Engineer_Tessera_Human_Capital",
+        "cv": "results/046_Python_Integration_Engineer_Tessera_Human_Capital/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-1774869443512801096": {
+        "title": "Data Engineer con Python e Inglés C1, hibrido",
+        "company": "sg tech",
+        "folder": "047_Data_Engineer_con_Python_e_Inglés_C1,_hibrido_sg_tech",
+        "cv": "results/047_Data_Engineer_con_Python_e_Inglés_C1,_hibrido_sg_tech/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/-1304977101191623676": {
+        "title": "Senior Python Developer, Madrid",
+        "company": "GFR Technologies SE",
+        "folder": "048_Senior_Python_Developer,_Madrid_GFR_Technologies_SE",
+        "cv": "results/048_Senior_Python_Developer,_Madrid_GFR_Technologies_SE/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/1843436218237376595": {
+        "title": "Senior Python Developer - GFT Technologies",
+        "company": "Jobrapido",
+        "folder": "049_Senior_Python_Developer_-_GFT_Technologies_Jobrapido",
+        "cv": "results/049_Senior_Python_Developer_-_GFT_Technologies_Jobrapido/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/7251269238345489937": {
+        "title": "Python Developer",
+        "company": "Logicalis Spain",
+        "folder": "050_Python_Developer_Logicalis_Spain",
+        "cv": "results/050_Python_Developer_Logicalis_Spain/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://es.jooble.org/jdp/2143197903855993992": {
+        "title": "Python Developer, Madrid",
+        "company": "GFR Technologies SE",
+        "folder": "051_Python_Developer,_Madrid_GFR_Technologies_SE",
+        "cv": "results/051_Python_Developer,_Madrid_GFR_Technologies_SE/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5903626120?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "IT Integration Senior Developer",
+        "company": "WTW",
+        "folder": "052_IT_Integration_Senior_Developer_WTW",
+        "cv": "results/052_IT_Integration_Senior_Developer_WTW/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5904357285?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Analista Programador/a .NET",
+        "company": "NETCheck",
+        "folder": "053_Analista_Programador_a_.NET_NETCheck",
+        "cv": "results/053_Analista_Programador_a_.NET_NETCheck/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5904350240?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Software / Machine Learning Engineer New",
+        "company": "Prima",
+        "folder": "054_Software___Machine_Learning_Engineer_New_Prima",
+        "cv": "results/054_Software___Machine_Learning_Engineer_New_Prima/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5904350436?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Software / Machine Learning Engineer New",
+        "company": "Prima",
+        "folder": "055_Software___Machine_Learning_Engineer_New_Prima",
+        "cv": "results/055_Software___Machine_Learning_Engineer_New_Prima/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5904350075?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Software / Machine Learning Engineer",
+        "company": "Prima",
+        "folder": "056_Software___Machine_Learning_Engineer_Prima",
+        "cv": "results/056_Software___Machine_Learning_Engineer_Prima/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5903152013?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Software / Machine Learning Engineer",
+        "company": "Prima",
+        "folder": "057_Software___Machine_Learning_Engineer_Prima",
+        "cv": "results/057_Software___Machine_Learning_Engineer_Prima/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5904352007?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Junior Software Engineer (Intelligence And Surveillance Systems)",
+        "company": "GMV",
+        "folder": "058_Junior_Software_Engineer_(Intelligence_And_Surveillance_Systems)_GMV",
+        "cv": "results/058_Junior_Software_Engineer_(Intelligence_And_Surveillance_Systems)_GMV/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5904349879?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Software Engineer",
+        "company": "GMV",
+        "folder": "059_Software_Engineer_GMV",
+        "cv": "results/059_Software_Engineer_GMV/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5904350625?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Software Engineer",
+        "company": "MediaRadar, Inc.",
+        "folder": "060_Software_Engineer_MediaRadar,_Inc.",
+        "cv": "results/060_Software_Engineer_MediaRadar,_Inc./CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5904350127?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Software Engineer",
+        "company": "MediaRadar, Inc.",
+        "folder": "061_Software_Engineer_MediaRadar,_Inc.",
+        "cv": "results/061_Software_Engineer_MediaRadar,_Inc./CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5903152831?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Software Engineer",
+        "company": "PagoNxt",
+        "folder": "062_Software_Engineer_PagoNxt",
+        "cv": "results/062_Software_Engineer_PagoNxt/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5904352667?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Software Engineer",
+        "company": "GMV",
+        "folder": "063_Software_Engineer_GMV",
+        "cv": "results/063_Software_Engineer_GMV/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5904351483?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Senior Software Engineer - Ssc",
+        "company": "Elastic",
+        "folder": "064_Senior_Software_Engineer_-_Ssc_Elastic",
+        "cv": "results/064_Senior_Software_Engineer_-_Ssc_Elastic/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5896096361?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Data Transfer Engineer",
+        "company": "Roche & Company",
+        "folder": "065_Data_Transfer_Engineer_Roche_&_Company",
+        "cv": "results/065_Data_Transfer_Engineer_Roche_&_Company/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5904350117?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Software Engineer – Ai/Ml Platform",
+        "company": "Prima",
+        "folder": "066_Software_Engineer_–_Ai_Ml_Platform_Prima",
+        "cv": "results/066_Software_Engineer_–_Ai_Ml_Platform_Prima/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5904352637?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "Principal Ai Engineer - Context - Agents And Context - Spain",
+        "company": "Elastic",
+        "folder": "067_Principal_Ai_Engineer_-_Context_-_Agents_And_Context_-_Spain_Elastic",
+        "cv": "results/067_Principal_Ai_Engineer_-_Context_-_Agents_And_Context_-_Spain_Elastic/CV_Gonzalo_Vega_Ramos.pdf"
+    },
+    "https://www.adzuna.es/details/5866704583?utm_medium=api&utm_source=e3dffc2c": {
+        "title": "AI Engineer - Madrid",
+        "company": "Galadrim",
+        "folder": "068_AI_Engineer_-_Madrid_Galadrim",
+        "cv": "results/068_AI_Engineer_-_Madrid_Galadrim/CV_Gonzalo_Vega_Ramos.pdf"
     }
 }

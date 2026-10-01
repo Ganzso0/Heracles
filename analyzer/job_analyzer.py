@@ -315,9 +315,6 @@ responsibilities y role.
 OFERTA:
 {job_text}
 
-OFERTA:
-{job_text}
-
 Devuelve EXACTAMENTE esta estructura:
 
 {{
@@ -414,7 +411,10 @@ IMPORTANTE:
             "stream": False,
             "think": False,
             "format": "json",
-            "num_predict": 1000
+            "options": {
+                "num_ctx": 8192,
+                "num_predict": 6000
+            }
         },
         timeout=120
     )
@@ -423,7 +423,13 @@ IMPORTANTE:
 
     result = response.json()
 
+    print("DONE:", result.get("done"))
+    print("DONE REASON:", result.get("done_reason"))
+
     content = result["message"]["content"]
+
+    print("LONGITUD RESPUESTA:", len(content))
+    print("TOKENS GENERADOS:", result.get("eval_count"))
 
     print()
     print("==============================")

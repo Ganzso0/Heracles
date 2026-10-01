@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Heracles",
+    "version": "0.1.0",
+    "description": "Analiza ofertas de LinkedIn con Heracles.",
+    "permissions": [
+        "activeTab"
+    ],
+    "host_permissions": [
+        "http://127.0.0.1:8000/*"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.linkedin.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ]
+}

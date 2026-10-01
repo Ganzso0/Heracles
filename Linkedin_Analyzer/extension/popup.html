@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heracles</title>
+
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <div class="logo">H</div>
+
+            <div>
+                <h1>HERACLES</h1>
+                <p class="subtitle">Job Intelligence</p>
+            </div>
+        </header>
+
+        <button id="analyze">
+            <span>Analizar oferta</span>
+            <span class="button-icon">→</span>
+        </button>
+
+        <div id="status" class="status hidden">
+            <div class="spinner"></div>
+            <p>Analizando oferta...</p>
+            <span>Heracles está trabajando</span>
+        </div>
+
+        <div id="result" class="result hidden">
+
+            <p class="result-label">COMPATIBILIDAD</p>
+
+            <div class="score">
+                <span id="percentage">0</span>
+                <span class="percent-sign">%</span>
+            </div>
+
+            <div class="progress">
+                <div id="progress-bar"></div>
+            </div>
+
+            <p id="result-message"></p>
+
+        </div>
+
+        <div id="error" class="error hidden"></div>
+
+        <footer>
+            <span class="status-dot"></span>
+            Heracles · Local AI
+        </footer>
+
+    </div>
+
+    <script src="popup.js"></script>
+
+</body>
+
+</html>
