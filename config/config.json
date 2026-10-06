@@ -1,66 +1,71 @@
 {
-  "match_threshold": 80,
-  "interval_minutes": 60,
-  "search": {
-    "locations": [
-      "Madrid"
-    ],
-"keywords": [
-  "Python Developer",
-  "Python Developer Junior",
-  "Junior Python Developer",
+    "interval_minutes": 60,
 
-  "Python Backend Developer",
-  "Junior Python Backend Developer",
-
-  "AI Engineer",
-  "Junior AI Engineer",
-
-  "AI Developer",
-  "Junior AI Developer",
-
-  "LLM Engineer",
-  "Junior LLM Engineer",
-
-  "Generative AI Engineer",
-  "Junior Generative AI Engineer",
-
-  "AI Software Engineer",
-  "Junior AI Software Engineer",
-
-  "Applied AI Engineer",
-  "Junior Applied AI Engineer",
-
-  "Backend Developer",
-  "Junior Backend Developer",
-
-  "Software Engineer",
-  "Junior Software Engineer",
-
-  "Machine Learning Engineer",
-  "Junior Machine Learning Engineer",
-
-  "RAG Engineer",
-  "Junior RAG Engineer",
-
-  "AI Agents",
-
-  ".NET",
-  "C#"
-]
-  },
-
-  "sources": {
-    "adzuna": {
-      "enabled": true,
-      "app_id": "e3dffc2c",
-      "app_key": "386e47591e709320295407e25c8d4f69",
-      "country": "es"
+    "search": {
+        "locations": [
+            "Madrid"
+        ],
+        "keywords": [
+            "Python Developer",
+            "Python Developer Junior",
+            "Junior Python Developer",
+            "Python Backend Developer",
+            "Junior Python Backend Developer",
+            "AI Engineer",
+            "Junior AI Engineer",
+            "AI Developer",
+            "Junior AI Developer",
+            "LLM Engineer",
+            "Junior LLM Engineer",
+            "Generative AI Engineer",
+            "Junior Generative AI Engineer",
+            "AI Software Engineer",
+            "Junior AI Software Engineer",
+            "Applied AI Engineer",
+            "Junior Applied AI Engineer",
+            "Backend Developer",
+            "Junior Backend Developer",
+            "Software Engineer",
+            "Junior Software Engineer",
+            "Machine Learning Engineer",
+            "Junior Machine Learning Engineer",
+            "RAG Engineer",
+            "Junior RAG Engineer",
+            "AI Agents",
+            ".NET",
+            "C#"
+        ]
     },
-    "jooble": {
-        "enabled": true,
-        "api_key": "3846022e-66c7-48c3-b04f-bc805dd6934f"
-    }
-  }
 
+    "filters": {
+        "excluded_keywords": []
+    },
+
+    "matching": {
+        "threshold": 80
+    },
+
+    "generation": {
+        "link": true,
+        "cv": true,
+        "cover_letter": false,
+        "advice": false,
+        "cv_formats": {
+            "pdf": true,
+            "docx": true
+        }
+    },
+
+    "sources": {
+        "adzuna": {
+            "enabled": true,
+            "app_id": "e3dffc2c",
+            "app_key": "386e47591e709320295407e25c8d4f69",
+            "country": "es"
+        },
+        "jooble": {
+            "enabled": true,
+            "api_key": "3846022e-66c7-48c3-b04f-bc805dd6934f"
+        }
+    }
 }

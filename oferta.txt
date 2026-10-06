@@ -1,17 +1,32 @@
 About the job
-🔵 En CAPITOLE, ¡seguimos creciendo y queremos hacerlo contigo!
-Buscamos un/a Desarrollador .Net para un proyecto de alto impacto, centrado en el desarrollo y modernización de aplicaciones críticas de negocio.
-💻 ¿Qué perfil estamos buscando?• +4 años de experiencia desarrollando con .NET Core • Conocimiento fuerte en OOP/OOD y design patterns• Experiencia con Arquitectura Hexagonal, DDD, CQRS, Microservicios.• Experiencia con colas de mensajería y MongoDB• Experiencia escribiendo tests unitarios e integración• Experiencia en cloud con Azure o AWS.• Perfil proactivo, orientado a calidad, escalabilidad y trabajo en equipo bajo metodologías Agile• Capacidad para participar en diseños, code reviews y mejora continua
-Nice to have: conocimientos de Angular
-📍Ubicación: Madrid, 3 días de teletrabajo y 2 días desde casa.🕝Horario: horario flexible con jornada intensiva en verano (julio-agosto)
-Somos geniales, pero contigo lo seremos más 😊
-Para ello tendrás:📚Presupuesto de 1.200€ en formación individual.🗣️Seguimiento con tu equipo todos los meses para tener un continuo feedback.💊Seguro médico privado pagado íntegramente por Capitole💲Retribución flexible (tickets restaurante, transporte y/o guardería).💪Wellhub🫰Descuentos en grandes marcas para emplead@s (Club Capitole)
-Para que conozcas a toda la familia:
-Team Buildings cada dos meses. ¡No te puedes perder la fiesta de verano o la cena de Navidad!
-Equipo de fútbol patrocinado por Capitole.
-Comunidades tecnológicas para que compartas tus conocimientos e ideas con los demás equipos. ¡¡¡Compartir el conocimiento interno es fundamental!!!
-¡Por último y no menos importante un EQUIPAZO!
+About Quantrue
+We're a forward-deployed AI engineering firm that partners closely with clients to build and deploy tailored AI solutions. We focus on transforming complex business challenges into practical, production-grade technology that generates measurable impact. We emphasize co-development, working side by side with client teams to accelerate innovation and delivery.
+Team members join a fast-moving environment where applied AI, engineering excellence, and business outcomes intersect.
+Role description
+As a Forward Deployed AI Engineer at Quantrue, you will work directly with clients to design, build, and deploy AI-driven software solutions that address real-world business problems. On a day-to-day basis, you will collaborate with cross-functional stakeholders to understand requirements, prototype and implement backend services, integrate AI components, and ensure systems are robust, scalable, and maintainable. You will contribute to end-to-end development, from data processing and model integration to API design, testing, and monitoring in production environments.
+You will also participate in architectural discussions and knowledge sharing to support sustainable, high-quality engineering practices.
+This is a full-time hybrid role based in Madrid, with a mix of on-site collaboration (either at our client's offices our ours) and flexibility for work-from-home.
+Required qualifications
+Hard skills:
+Technical master's or PhD degree: engineering, computer science, physics, maths, etc.
+Expertise in ML/DL/AI methodologies.
+User of an agentic developer workbench (GitHub Copilot, Claude Code).
+Proficiency in programming, with experience delivering production-ready code. Python is a must.
+Experience in DevOps/MLOps practices, advanced Git.
+Experience working with AI/ML systems (e.g., integrating models, data pipelines, LangGraph).
+Familiarity with cloud platforms (such as AWS, GCP, Azure) and/or containerization/orchestration tools (e.g., Docker, Kubernetes).
+Nice to have: solid understanding of Object-Oriented Programming principles and their application in modern codebases.
+Nice to have: expertise in optimization methodologies.
 
-¿Aún no nos conoces? ¡¡Descúbrenos!! https://capitole-consulting.com/Mira lo que opinan de nosotros 👀 https://www.glassdoor.es/Opiniones/Capitole-Consulting-Opiniones-E2060890.htm
-No dudes en enviarnos tu perfil, ¡estamos deseando conocerte!
-The employee will adhere to information security policies:-Will have access to confidential information related to Capitole and the project they are working on.-Must comply with the security policies and internal policies of the company and the client.-Must sign an NDA.
+Soft skills:
+Ability to collaborate with non-technical stakeholders, translate business needs into technical solutions, and communicate clearly in English; Spanish proficiency is a plus.
+Comfort operating in client-facing environments, with a proactive mindset and willingness to work in a hybrid setup in Madrid.
+Recent graduates are welcome. Experience in data science consulting will be a plus.
+
+Primary location: Madrid (Spain).
+Job type: full time with a hybrid remote-office setting.
+Main contact: Jordi Serra - jserra@quantrue.com
+
+Requirements added by the job poster
+
+• 2+ years of work experience with Python (Programming Language)

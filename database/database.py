@@ -308,6 +308,28 @@ class JobDatabase:
 
         return dict(row)
 
+    def get_jobs_by_statuses(self, statuses):
+
+        cursor = self.connection.cursor()
+
+        placeholders = ",".join(
+            "?" for _ in statuses
+        )
+
+        cursor.execute(
+            f"""
+            SELECT *
+            FROM jobs
+            WHERE status IN ({placeholders})
+            ORDER BY first_seen DESC
+            """,
+            tuple(statuses)
+        )
+
+        rows = cursor.fetchall()
+
+        return [dict(row) for row in rows]
+
     def close(self):
 
         self.connection.close()

@@ -1,14 +1,13 @@
 import copy
 import json
-import requests
 
 
-OLLAMA_URL = "http://localhost:11434/api/chat"
-MODEL = "ministral-3:8b"
 
-
-def adapt_cv(job_profile: dict, candidate_profile: dict) -> dict:
-
+def adapt_cv(
+    job_profile: dict,
+    candidate_profile: dict,
+    llm_client
+) -> dict:
     # ==========================================================
     # INFORMACIÓN ORIGINAL
     # ==========================================================
@@ -346,43 +345,11 @@ Devuelve únicamente el JSON.
     # OLLAMA
     # ==========================================================
 
-    try:
-
-        response = requests.post(
-            OLLAMA_URL,
-            json={
-                "model": MODEL,
-                "messages": [
-                    {
-                        "role": "user",
-                        "content": prompt
-                    }
-                ],
-                "stream": False,
-                "think": False,
-                "format": "json",
-                "num_predict": 3000
-            },
-            timeout=180
-        )
-
-    except requests.exceptions.ConnectionError as error:
-
-        raise RuntimeError(
-            "No se pudo conectar con Ollama. "
-            "Comprueba que Ollama esté ejecutándose."
-        ) from error
-
-    response.raise_for_status()
-
-    result = response.json()
-
-    print("Motivo final:", result.get("done_reason"))
-    print("Prompt tokens:", result.get("prompt_eval_count"))
-    print("Generated tokens:", result.get("eval_count"))
-    print("Total duration:", result.get("total_duration"))
-
-    content = result["message"]["content"]
+    content = llm_client.generate(
+        prompt,
+        temperature=0.2,
+        max_tokens=3000
+    )
 
     print("\n========== RESPUESTA RAW ==========")
     print(content)

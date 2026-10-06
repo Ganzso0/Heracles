@@ -1,12 +1,10 @@
 import json
-import requests
 
 
-OLLAMA_URL = "http://localhost:11434/api/chat"
-MODEL = "ministral-3:8b"
-
-
-def analyze_job(job_text: str) -> dict:
+def analyze_job(
+    job_text: str,
+    llm_client
+) -> dict:
 
     prompt = f"""
 Analiza la siguiente oferta de trabajo y conviértela EXCLUSIVAMENTE
@@ -398,39 +396,14 @@ IMPORTANTE:
 - No escribas explicaciones.
 - No uses markdown.
 """
-    response = requests.post(
-        OLLAMA_URL,
-        json={
-            "model": MODEL,
-            "messages": [
-                {
-                    "role": "user",
-                    "content": prompt
-                }
-            ],
-            "stream": False,
-            "think": False,
-            "format": "json",
-            "options": {
-                "num_ctx": 8192,
-                "num_predict": 6000
-            }
-        },
-        timeout=120
+    content = llm_client.generate(
+        prompt
     )
 
-    response.raise_for_status()
-
-    result = response.json()
-
-    print("DONE:", result.get("done"))
-    print("DONE REASON:", result.get("done_reason"))
-
-    content = result["message"]["content"]
-
-    print("LONGITUD RESPUESTA:", len(content))
-    print("TOKENS GENERADOS:", result.get("eval_count"))
-
+    print(
+        "LONGITUD RESPUESTA:",
+        len(content)
+    )
     print()
     print("==============================")
     print("RESPUESTA RAW DEL MODELO")

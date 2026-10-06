@@ -1,120 +1,120 @@
 {
-    "title": "Desarrollador .Net",
-    "company": "CAPITOLE",
-    "location": "Madrid, 3 días de teletrabajo y 2 días desde casa",
+    "title": null,
+    "company": "Quantrue",
+    "location": "Madrid (Spain)",
     "seniority": null,
+    "role": {
+        "primary": "ai_engineer",
+        "secondary": []
+    },
     "experience": {
-        "minimum_years": 4,
+        "minimum_years": 2,
         "required": true
     },
     "requirements": [
         {
-            "name": ".NET Core",
-            "category": "framework",
+            "name": "Technical master's or PhD degree in engineering, computer science, physics, or maths",
+            "category": "education",
             "required": true,
             "match_type": "individual",
             "group": null
         },
         {
-            "name": "OOP",
-            "category": "programming_concept",
+            "name": "Expertise in ML/DL/AI methodologies",
+            "category": "ai_ml",
             "required": true,
             "match_type": "individual",
             "group": null
         },
         {
-            "name": "OOD",
-            "category": "programming_concept",
+            "name": "User of an agentic developer workbench (GitHub Copilot, Claude Code)",
+            "category": "tool",
             "required": true,
             "match_type": "individual",
             "group": null
         },
         {
-            "name": "design patterns",
-            "category": "design_pattern",
+            "name": "Python (Programming Language)",
+            "category": "programming_language",
             "required": true,
             "match_type": "individual",
             "group": null
         },
         {
-            "name": "Arquitectura Hexagonal",
-            "category": "architecture",
+            "name": "DevOps/MLOps practices",
+            "category": "methodology",
             "required": true,
             "match_type": "individual",
             "group": null
         },
         {
-            "name": "DDD",
-            "category": "architecture",
+            "name": "Advanced Git",
+            "category": "tool",
             "required": true,
             "match_type": "individual",
             "group": null
         },
         {
-            "name": "CQRS",
-            "category": "architecture",
+            "name": "Experience working with AI/ML systems (e.g., integrating models, data pipelines, LangGraph)",
+            "category": "ai_ml",
             "required": true,
             "match_type": "individual",
             "group": null
         },
         {
-            "name": "Microservicios",
-            "category": "architecture",
-            "required": true,
-            "match_type": "individual",
-            "group": null
-        },
-        {
-            "name": "colas de mensajería",
-            "category": "messaging",
-            "required": true,
-            "match_type": "individual",
-            "group": null
-        },
-        {
-            "name": "MongoDB",
-            "category": "database",
-            "required": true,
-            "match_type": "individual",
-            "group": null
-        },
-        {
-            "name": "tests unitarios",
-            "category": "testing",
-            "required": true,
-            "match_type": "individual",
-            "group": null
-        },
-        {
-            "name": "tests de integración",
-            "category": "testing",
-            "required": true,
-            "match_type": "individual",
-            "group": null
-        },
-        {
-            "name": "Azure",
+            "name": "Familiarity with cloud platforms (AWS, GCP, Azure)",
             "category": "cloud",
             "required": true,
             "match_type": "alternative",
-            "group": "cloud"
+            "group": "cloud_platforms"
         },
         {
-            "name": "AWS",
-            "category": "cloud",
+            "name": "Containerization/orchestration tools (Docker, Kubernetes)",
+            "category": "infrastructure",
             "required": true,
             "match_type": "alternative",
-            "group": "cloud"
+            "group": "containerization_tools"
         },
         {
-            "name": "Angular",
-            "category": "framework",
+            "name": "Solid understanding of Object-Oriented Programming principles",
+            "category": "programming_concept",
+            "required": false,
+            "match_type": "individual",
+            "group": null
+        },
+        {
+            "name": "Expertise in optimization methodologies",
+            "category": "other",
             "required": false,
             "match_type": "individual",
             "group": null
         }
     ],
-    "education": [],
-    "languages": [],
-    "responsibilities": []
+    "education": [
+        {
+            "name": "Technical master's or PhD degree in engineering, computer science, physics, or maths",
+            "required": true
+        }
+    ],
+    "languages": [
+        {
+            "name": "English",
+            "level": null,
+            "required": true
+        },
+        {
+            "name": "Spanish",
+            "level": null,
+            "required": false
+        }
+    ],
+    "responsibilities": [
+        "Collaborate with cross-functional stakeholders to understand requirements",
+        "Prototype and implement backend services",
+        "Integrate AI components",
+        "Ensure systems are robust, scalable, and maintainable",
+        "Contribute to end-to-end development (data processing, model integration, API design, testing, monitoring in production environments)",
+        "Participate in architectural discussions",
+        "Support sustainable, high-quality engineering practices"
+    ]
 }

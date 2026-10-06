@@ -1,15 +1,11 @@
 import json
-import requests
-
-
-OLLAMA_URL = "http://localhost:11434/api/chat"
-MODEL = "ministral-3:8b"
 
 
 def generate_cover_letter(
     job_profile: dict,
     candidate_profile: dict,
-    match_result: dict
+    match_result: dict,
+    llm_client
 ) -> str:
 
     prompt = f"""
@@ -46,6 +42,8 @@ MUY IMPORTANTE:
 
 Nunca confundas los requisitos de la oferta con la experiencia del candidato.
 
+Durante la redaccion no uses negrita *aaaa* o subrayados o modificacion del texto.
+
 El campo "experience.minimum_years" indica LO QUE PIDE LA EMPRESA,
 NO los años de experiencia que tiene el candidato.
 
@@ -70,27 +68,10 @@ RESULTADO DE COMPATIBILIDAD:
 {json.dumps(match_result, ensure_ascii=False, indent=2)}
 """
 
-    response = requests.post(
-        OLLAMA_URL,
-        json={
-            "model": MODEL,
-            "messages": [
-                {
-                    "role": "user",
-                    "content": prompt
-                }
-            ],
-            "stream": False,
-            "think": False,
-            "options": {
-                "num_predict": 700
-            }
-        },
-        timeout=120
+    content = llm_client.generate(
+        prompt,
+        temperature=0.4,
+        max_tokens=700
     )
 
-    response.raise_for_status()
-
-    data = response.json()
-
-    return data["message"]["content"].strip()
+    return content.strip()
